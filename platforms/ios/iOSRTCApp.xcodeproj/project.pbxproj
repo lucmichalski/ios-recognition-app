@@ -1,0 +1,1490 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+/* Begin PBXBuildFile section */
+		1D3623260D0F684500981E51 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* AppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765FC0DF74451002DB57D /* CoreGraphics.framework */; };
+		301BF552109A68D80062928A /* libCordova.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 301BF535109A57CC0062928A /* libCordova.a */; };
+		302D95F114D2391D003F00A1 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 302D95EF14D2391D003F00A1 /* MainViewController.m */; };
+		302D95F214D2391D003F00A1 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 302D95F014D2391D003F00A1 /* MainViewController.xib */; };
+		305D5FD1115AB8F900A74A75 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 305D5FD0115AB8F900A74A75 /* MobileCoreServices.framework */; };
+		3088BBBD154F3926009F9C59 /* Default-Landscape@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 3088BBB7154F3926009F9C59 /* Default-Landscape@2x~ipad.png */; };
+		3088BBBE154F3926009F9C59 /* Default-Landscape~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 3088BBB8154F3926009F9C59 /* Default-Landscape~ipad.png */; };
+		3088BBBF154F3926009F9C59 /* Default-Portrait@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 3088BBB9154F3926009F9C59 /* Default-Portrait@2x~ipad.png */; };
+		3088BBC0154F3926009F9C59 /* Default-Portrait~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 3088BBBA154F3926009F9C59 /* Default-Portrait~ipad.png */; };
+		3088BBC1154F3926009F9C59 /* Default@2x~iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = 3088BBBB154F3926009F9C59 /* Default@2x~iphone.png */; };
+		3088BBC2154F3926009F9C59 /* Default~iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = 3088BBBC154F3926009F9C59 /* Default~iphone.png */; };
+		308D05371370CCF300D202BF /* icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = 308D052E1370CCF300D202BF /* icon-72.png */; };
+		308D05381370CCF300D202BF /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 308D052F1370CCF300D202BF /* icon.png */; };
+		308D05391370CCF300D202BF /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 308D05301370CCF300D202BF /* icon@2x.png */; };
+		30B4F30019D5E07200D9F7D8 /* Default-667h.png in Resources */ = {isa = PBXBuildFile; fileRef = 30B4F2FD19D5E07200D9F7D8 /* Default-667h.png */; };
+		30B4F30119D5E07200D9F7D8 /* Default-736h.png in Resources */ = {isa = PBXBuildFile; fileRef = 30B4F2FE19D5E07200D9F7D8 /* Default-736h.png */; };
+		30B4F30219D5E07200D9F7D8 /* Default-Landscape-736h.png in Resources */ = {isa = PBXBuildFile; fileRef = 30B4F2FF19D5E07200D9F7D8 /* Default-Landscape-736h.png */; };
+		30C1856619D5FC0A00212699 /* icon-60@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 30C1856519D5FC0A00212699 /* icon-60@3x.png */; };
+		30FC414916E50CA1004E6F35 /* icon-72@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 30FC414816E50CA1004E6F35 /* icon-72@2x.png */; };
+		5B1594DD16A7569C00FEF299 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B1594DC16A7569C00FEF299 /* AssetsLibrary.framework */; };
+		7E7966DE1810823500FA85AD /* icon-40.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E7966D41810823500FA85AD /* icon-40.png */; };
+		7E7966DF1810823500FA85AD /* icon-40@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E7966D51810823500FA85AD /* icon-40@2x.png */; };
+		7E7966E01810823500FA85AD /* icon-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E7966D61810823500FA85AD /* icon-50.png */; };
+		7E7966E11810823500FA85AD /* icon-50@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E7966D71810823500FA85AD /* icon-50@2x.png */; };
+		7E7966E21810823500FA85AD /* icon-60.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E7966D81810823500FA85AD /* icon-60.png */; };
+		7E7966E31810823500FA85AD /* icon-60@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E7966D91810823500FA85AD /* icon-60@2x.png */; };
+		7E7966E41810823500FA85AD /* icon-76.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E7966DA1810823500FA85AD /* icon-76.png */; };
+		7E7966E51810823500FA85AD /* icon-76@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E7966DB1810823500FA85AD /* icon-76@2x.png */; };
+		7E7966E61810823500FA85AD /* icon-small.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E7966DC1810823500FA85AD /* icon-small.png */; };
+		7E7966E71810823500FA85AD /* icon-small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E7966DD1810823500FA85AD /* icon-small@2x.png */; };
+		D4A0D8761607E02300AEF8BB /* Default-568h@2x~iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = D4A0D8751607E02300AEF8BB /* Default-568h@2x~iphone.png */; };
+		5A5BC7A6E5ED4DA9AA770DAF /* CameraServer.m in Sources */ = {isa = PBXBuildFile; fileRef = A0D401E7550A478DBA8122A1 /* CameraServer.m */; };
+		14FA35772AAC41A1B742A395 /* HTTPServer.m in Sources */ = {isa = PBXBuildFile; fileRef = 771D6EAB5A6A4C99BA60D256 /* HTTPServer.m */; };
+		F941B63BD7D5411289D11F63 /* WebSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 845FD8EE7BDE433BA11CDD35 /* WebSocket.m */; };
+		208977FCC648439EB7D15F97 /* HTTPMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = B0E46140C0EC439ABFD96678 /* HTTPMessage.m */; };
+		3076BB319D9C4029AA75DC3A /* HTTPAuthenticationRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = C4E9A0E25F494C928926C97C /* HTTPAuthenticationRequest.m */; };
+		B28CA742D4E54811949A539F /* HTTPConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CD72484684344F08D5A2661 /* HTTPConnection.m */; };
+		0433F29145D44D749D656308 /* HTTPAsyncFileResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = EDF8A1FC2BF74D56B17F752B /* HTTPAsyncFileResponse.m */; };
+		B6896D34B47649F6A2FFDE18 /* HTTPErrorResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 260BBFDE03C844B4BF558A99 /* HTTPErrorResponse.m */; };
+		31573C26AA354748A10BBC6E /* HTTPDynamicFileResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = B19375D64A6347B8BD4758ED /* HTTPDynamicFileResponse.m */; };
+		D5BDA7CD519145398EBEF0FB /* HTTPRedirectResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C640082D92240818BE393A0 /* HTTPRedirectResponse.m */; };
+		54C46B0D6F8D499BBFAF677B /* HTTPFileResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 833AD9B3D7FC4877A7AA2669 /* HTTPFileResponse.m */; };
+		0CCC6001ECA7436494DB2CA7 /* HTTPDataResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = B238AF8DEE874BCBA0BF4C2F /* HTTPDataResponse.m */; };
+		577AEC1EC7AA4D70BE1286D2 /* MultipartFormDataParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EA723F8F0DE4D4993813CCB /* MultipartFormDataParser.m */; };
+		790A7F16CB9F4762BFAF8E45 /* MultipartMessageHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 73228100ACBD415487199293 /* MultipartMessageHeader.m */; };
+		35C18A53DED54F85930BC421 /* MultipartMessageHeaderField.m in Sources */ = {isa = PBXBuildFile; fileRef = 11CA3E64EE4D400EAFA83185 /* MultipartMessageHeaderField.m */; };
+		A646DCFC1EB846349B240D1C /* DDData.m in Sources */ = {isa = PBXBuildFile; fileRef = 50AC57C65F9F496B80AD7765 /* DDData.m */; };
+		E9A1356F0913402EA45D1B85 /* DDNumber.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B5F1A3709924149B526D43A /* DDNumber.m */; };
+		B2CA1F106ABF4A4FA3DA62D1 /* DDRange.m in Sources */ = {isa = PBXBuildFile; fileRef = 787E5883D21B446A8A07CFEA /* DDRange.m */; };
+		E17BAC4147544592BC02EB1D /* GCDAsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = E6E150DECFAE4E72A51EDD34 /* GCDAsyncSocket.m */; };
+		745AD6E2C3C546EEA2552964 /* DDAbstractDatabaseLogger.h in Resources */ = {isa = PBXBuildFile; fileRef = E10C742C7FCD4FBF981E9CAE /* DDAbstractDatabaseLogger.h */; };
+		7A6C1D46C85C4ADAB79EC1C1 /* DDAbstractDatabaseLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EB2F15B0A2E4DB3B08E307B /* DDAbstractDatabaseLogger.m */; };
+		89F157CCD2894458B6DA47A3 /* DDFileLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 322CEC7D83D3455D8EDD9C53 /* DDFileLogger.m */; };
+		FA472AD242AA46DABFE189B2 /* DDASLLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = CEEBE759AF79452CB817BE6E /* DDASLLogger.m */; };
+		B2B093F3866548A7B0A34A21 /* DDTTYLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 60F6527E9459450C9FDE93D9 /* DDTTYLogger.m */; };
+		7D6F5902F4564DA184A45209 /* DDLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 841D96E5E6AB497D9EFBF48F /* DDLog.m */; };
+		4BD87F0731DF4277AE72F708 /* ContextFilterLogFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CCCA736CAE54B3DABDDC7A1 /* ContextFilterLogFormatter.m */; };
+		35FBA713221F4A6F80C3FDAA /* DispatchQueueLogFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = C428DD1F7B6B431F9F21E090 /* DispatchQueueLogFormatter.m */; };
+		A3CDA4D06F2B4AB594496AB6 /* CameraManager.m in Sources */ = {isa = PBXBuildFile; fileRef = BB3B05495A4945CE952C337E /* CameraManager.m */; };
+		5F75433BDBC441DFB1F5027C /* HTTPVideoResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E681629BA6A42AFBCA3D2D3 /* HTTPVideoResponse.m */; };
+		595ED3A14F554418A0203E3D /* HTTPJsonResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = BCC1BC5714D74408AFC25D18 /* HTTPJsonResponse.m */; };
+		F4C234119EC1497D92C5B75D /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88A0BC3081F94806BF18ABD1 /* CFNetwork.framework */; };
+		0892C1D3119746E2ACBCE599 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEBE8A527CD14FD1B4E20512 /* Foundation.framework */; };
+		9C48741F34434D34925E84C8 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7366DD8013C24CBA8EA2B58D /* Security.framework */; };
+		E57C8B3B09064BF59DC153DB /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EC19A8F137F4C8BA5ABE97B /* CoreVideo.framework */; };
+		EC2C8FF234EC4610B8AD6F56 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5935174053F44229A924110A /* QuartzCore.framework */; };
+		0F3F1A8AE67942248D9A9162 /* GCDWebServer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EE62E35103E459B92FBB065 /* GCDWebServer.framework */; };
+		B17D7E4BC11C4B4FA0435D91 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AE125DEC57C43ACA9CA7E04 /* libz.dylib */; };
+		75307A7325F84DD583541BCB /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F2D7C0ADA104B919214EA11 /* SystemConfiguration.framework */; };
+		7C36C486FAC949E8903CE145 /* MyMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B6362EA7CD241CDA86C9FC1 /* MyMainViewController.m */; };
+		299E88063E38429DB0FA3130 /* AppDelegate+WKWebViewPolyfill.h in Resources */ = {isa = PBXBuildFile; fileRef = C75039E6B75C413FA8170A49 /* AppDelegate+WKWebViewPolyfill.h */; };
+		13B0330193154A14AFDAFF33 /* AppDelegate+WKWebViewPolyfill.m in Sources */ = {isa = PBXBuildFile; fileRef = BC531ADF760A45D78E45A308 /* AppDelegate+WKWebViewPolyfill.m */; };
+		F76EB2B1A7EA4421A22C2A6B /* ReroutingUIWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = 14A6F2442B764C1696B21F5A /* ReroutingUIWebView.m */; };
+		FB3734A4BE0D40A5B9906E7F /* CDVWebViewOperationsDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DC68B872496543989A2F7545 /* CDVWebViewOperationsDelegate.m */; };
+		4907F24B4149439E99A4A02B /* CDVWebViewUIDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 183C0248C2CE43A7AC042B14 /* CDVWebViewUIDelegate.m */; };
+		0FF9925B401845B68094C0A4 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B7F42B364AE4F2ABC512DF9 /* WebKit.framework */; };
+		D6400687EDC947DB8CE55768 /* AppPreferences.m in Sources */ = {isa = PBXBuildFile; fileRef = E850A06D3FCC468E97F1F478 /* AppPreferences.m */; };
+		6209FF979B7C43AAAE59DDA7 /* CDVLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DE98CBAF8084273993E1843 /* CDVLogger.m */; };
+		0B698CA60575481595567977 /* CDVDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = 63F9A713FC9B45F081030325 /* CDVDevice.m */; };
+		1FC756BA4C90483292DF2D25 /* CDVConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 041CA2D973C8496388CE6CA7 /* CDVConnection.m */; };
+		9935A7358A3E4A1A8B19750E /* CDVReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = A951F29793FA41A9A4429043 /* CDVReachability.m */; };
+		326901CD41804371B9FB9C07 /* WebRTCPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = DAFC4A588D4847B88BB24F3D /* WebRTCPlugin.m */; };
+		F14A83E7E9A948D4B5B34E04 /* libwebrtc.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AFD3F86B9B9D49CD92CE12A4 /* libwebrtc.a */; };
+		B266B09E078E403DA72D4DEF /* libc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F015BA3AA1464D189F38267D /* libc++.dylib */; };
+		19A4E8912AD04E38A8325580 /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = BBE7CF924D514456A54F9A5C /* libsqlite3.0.dylib */; };
+		40DF678766E5431ABE9C6C87 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA045C05D4B440DEAD5D2E56 /* OpenGLES.framework */; };
+		BCAA802AE7E848ECA3D795E8 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DFF12D854E14A4CB051AE73 /* CoreMedia.framework */; };
+		F56837B88172464DA0D1A1B8 /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B47893503EE94B93B0D0EF5B /* CoreAudio.framework */; };
+		C2CEAD7DDD7D4441B9BAAB11 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A00DE78C5C4455FB1641D4A /* AVFoundation.framework */; };
+		DDC37B3C68B440B4A3E317B5 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13FB2CF0F6074F1EAC7CD56A /* CoreLocation.framework */; };
+		31DB29861EF44586AAAC886B /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EBFE5D1BF9D4871B80FD76F /* AudioToolbox.framework */; };
+		EFE56C562ED341008E4A1539 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7632A71E537546E285F233B8 /* GLKit.framework */; };
+		1E50E20AF94049DDB71C2778 /* WizCanvasPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = ED00355EE5994762960E2F43 /* WizCanvasPlugin.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		9305E4DF8F6A4ADEB29CACE9 /* WizCanvasView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2071D21D2018415CBF95274A /* WizCanvasView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		AF6A17FC585849F8B1601F44 /* NSString+URLEncoding.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F46ACAE8A5F47668B90EEF0 /* NSString+URLEncoding.m */; };
+		1DA195C9DA8B4DE9A535B1EB /* EJAudioSourceAVAudio.m in Sources */ = {isa = PBXBuildFile; fileRef = DC95F9CA880B40F68D3A5DD1 /* EJAudioSourceAVAudio.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		DBD2CD56514C4E9E8702B168 /* EJAudioSourceOpenAL.m in Sources */ = {isa = PBXBuildFile; fileRef = 28EE6584EE2E43779567177D /* EJAudioSourceOpenAL.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		42785A6A92334E52AFFE036C /* EJBindingAudio.m in Sources */ = {isa = PBXBuildFile; fileRef = C2CF2E92B0764682AF833ACC /* EJBindingAudio.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		DEE060A7C695476B961E4CFC /* EJOpenALBuffer.m in Sources */ = {isa = PBXBuildFile; fileRef = E5FBDE9D056E45DFAE2A0807 /* EJOpenALBuffer.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		8F3FE2F2385D489EA453353D /* EJSharedOpenALManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 48E5DDAF0A1C45F6AABC1243 /* EJSharedOpenALManager.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		8497CDDF752B4B7D94E5A9DC /* EJBindingBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C80F17CF9C445CFAD0A9530 /* EJBindingBase.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		4C5430961F1B4EF59BC52A74 /* EJBindingEjectaCore.m in Sources */ = {isa = PBXBuildFile; fileRef = 743205E104A64D7EB2A39A2C /* EJBindingEjectaCore.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		DCB32FBB25B94DCBB4EB5698 /* EJBindingEventedBase.m in Sources */ = {isa = PBXBuildFile; fileRef = A63C99DD2EA646F0872B9B54 /* EJBindingEventedBase.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		848FE16D09E94FB3A55E745C /* EJBindingVideo.m in Sources */ = {isa = PBXBuildFile; fileRef = 669EB4F61EC34654A9914AD1 /* EJBindingVideo.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		7F83137D7C6E4170AE559BB7 /* EJBindingCanvasContext2D.m in Sources */ = {isa = PBXBuildFile; fileRef = 51E464869EFA46F9B5A61CEE /* EJBindingCanvasContext2D.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		2B4F0C1CD2B9473B92A60049 /* EJBindingCanvasGradient.m in Sources */ = {isa = PBXBuildFile; fileRef = 44BB1652F84640D4A4C8DACA /* EJBindingCanvasGradient.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		8829165FAA5F43E1BC02B195 /* EJBindingCanvasPattern.m in Sources */ = {isa = PBXBuildFile; fileRef = 285B951B90EA40778567BA26 /* EJBindingCanvasPattern.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		B0B9EF07833E43E799769973 /* EJBindingImageData.m in Sources */ = {isa = PBXBuildFile; fileRef = 64A1A7D0F5ED48EEABD8FE2D /* EJBindingImageData.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		86850A1EAC7143FE9B6C6356 /* EJBindingTextMetrics.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BCD5E08B2634F819E54306A /* EJBindingTextMetrics.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		77E7E4DB640E428195297004 /* EJCanvasContext2D.m in Sources */ = {isa = PBXBuildFile; fileRef = ED742AAA5D4C41D682ECFFC5 /* EJCanvasContext2D.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		BAE37D5F366F4D79AB9C3CF6 /* EJCanvasContext2DScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = F52E3C9C7C6F48A280DDCBCA /* EJCanvasContext2DScreen.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		E9C37B38E25C40ADBD6AE2B9 /* EJCanvasContext2DTexture.m in Sources */ = {isa = PBXBuildFile; fileRef = 19922349D4DD495CBF040FC5 /* EJCanvasContext2DTexture.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		7B9B951C6A23454CA9CB248C /* EJCanvasGradient.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B6ECC9625E3409D8C5E45C8 /* EJCanvasGradient.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		5A5F6409A27D4418ADECE3D1 /* EJCanvasPattern.m in Sources */ = {isa = PBXBuildFile; fileRef = 1449FED337EB4BB8949C397F /* EJCanvasPattern.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		D1019DC37BA3456DAAE15ECF /* EJConvertColorRGBA.m in Sources */ = {isa = PBXBuildFile; fileRef = B20B68ABCA804CFEBC180ADB /* EJConvertColorRGBA.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		D4A811E9F43E44A2BE482EB7 /* EJFont.mm in Resources */ = {isa = PBXBuildFile; fileRef = D3C55B7857274352928ADE88 /* EJFont.mm */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		744B6025235748E3B9BBBF08 /* EJFontCache.m in Sources */ = {isa = PBXBuildFile; fileRef = FDF38815B0914A629945613B /* EJFontCache.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		BE404195E5A449BCAE61BC57 /* EJGLProgram2D.m in Sources */ = {isa = PBXBuildFile; fileRef = A978760B8C5E468B9DBD98B8 /* EJGLProgram2D.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		5B24A1C7D71F4E658A86EDEA /* EJGLProgram2DRadialGradient.m in Sources */ = {isa = PBXBuildFile; fileRef = DA90F8474DFF4B54AFB37E80 /* EJGLProgram2DRadialGradient.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		51161407991B4EDBA918FACA /* EJImageData.m in Sources */ = {isa = PBXBuildFile; fileRef = 44F7A709B7D44A70995555BD /* EJImageData.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		C68CE2B795C441F49B9BBD42 /* EJPath.mm in Resources */ = {isa = PBXBuildFile; fileRef = 3884A10230C44D89848D149A /* EJPath.mm */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		EBFFABF9252844BF86397C9F /* EAGLView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E238B30DAEF4C79A47C8CDF /* EAGLView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		DF09B06C12564283BA248D97 /* EJBindingCanvas.m in Sources */ = {isa = PBXBuildFile; fileRef = 03C5231385294CE985EC176D /* EJBindingCanvas.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		69ADBF574EC243F8855E9FDD /* EJBindingCanvasStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FE65714009A4CE08E34DCAE /* EJBindingCanvasStyle.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		A3B07B6723D24CE69CD502CE /* EJBindingImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 4253AF6D017848FE9994C5AD /* EJBindingImage.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		B9307ADB1A244A4CBDE4A752 /* EJCanvasContext.m in Sources */ = {isa = PBXBuildFile; fileRef = 984D033E08934D18A55CA430 /* EJCanvasContext.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		810A3922F6D04ACB9F8CFBAE /* EJSharedTextureCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F60EB53B57F4A62B50B4C8D /* EJSharedTextureCache.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		7866C57D9F4C4529AF7D3EBA /* EJTexture.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B12668236DB45A38DB18B5F /* EJTexture.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		5597984D77934B5B94325E5C /* EJTextureStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F44E71F3ADB40E1B53631D9 /* EJTextureStorage.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		0E2DE8DB1AD141FC8EFB93FC /* EJBindingCanvasContextWebGL.m in Sources */ = {isa = PBXBuildFile; fileRef = EAFA3B6EFFD948AEB05009DA /* EJBindingCanvasContextWebGL.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		507100DDD4944815AD0EBCB2 /* EJCanvasContextWebGLScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = 05D11D1EF58C43D3A949B6D4 /* EJCanvasContextWebGLScreen.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		027C2E237ECD4F5792541771 /* EJBindingWebGLExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B238D1BCC374E0E9E308096 /* EJBindingWebGLExtensions.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		35DE03E189C947DCAB9CE2EC /* EJBindingWebGLObjects.m in Sources */ = {isa = PBXBuildFile; fileRef = 10D52C2E097D4010B3A7328A /* EJBindingWebGLObjects.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		2A2F3B4FE55C44A3A0F6BF8E /* EJCanvasContextWebGL.m in Sources */ = {isa = PBXBuildFile; fileRef = BFB54A864BEB4C5AB943A7A1 /* EJCanvasContextWebGL.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		CF73CBC37B664F3587B3A2F0 /* EJConvertWebGL.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B9CDF8513FD4FAB9434B73B /* EJConvertWebGL.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		632BDC8CB13945BDB4FFB6F7 /* EJCanvasContextWebGLTexture.m in Sources */ = {isa = PBXBuildFile; fileRef = CD78BE1A4A5F4FD39A8BB5D0 /* EJCanvasContextWebGLTexture.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		870B62327445495FBB6A6A7F /* EJClassLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DF058BB51DD4DB58B009C1D /* EJClassLoader.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		8A9C9F09A28F4B34B982134E /* EJConvert.m in Sources */ = {isa = PBXBuildFile; fileRef = 038E3393A0F84711B8D30148 /* EJConvert.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		64926EB5096C4A48927BB8C6 /* EJNonRetainingProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FBBDFEA4AE34EA2881AE669 /* EJNonRetainingProxy.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		4DCB86600ACE4E92A39460BF /* EJSharedOpenGLContext.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F09DA29EDB248FEA4A6AC12 /* EJSharedOpenGLContext.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		B3FF5008558C431DBCCF999E /* EJTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A645E1011454881A74C690F /* EJTimer.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		23A544F3EEC6413A96D99DDA /* EJBindingAdBanner.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D05B8A6601417791A94375 /* EJBindingAdBanner.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		73B10AA944EF42A1B71F8D72 /* EJBindingDeviceMotion.m in Sources */ = {isa = PBXBuildFile; fileRef = 78F63916063348A5B8C88788 /* EJBindingDeviceMotion.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		76C927B192D24BDFBA462CAD /* EJBindingGeolocation.m in Sources */ = {isa = PBXBuildFile; fileRef = D14EB40F97794FAF9100D175 /* EJBindingGeolocation.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		213D43DF034D4E1A95B45792 /* EJBindingGameCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = A00C906A056B495DB07663AE /* EJBindingGameCenter.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		A3A1C3A6B9FA40C98EF32A17 /* EJBindingHttpRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = C20DAF1A3ED047F8A55A010F /* EJBindingHttpRequest.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		49F282E568394A4AAE245B1F /* EJBindingImagePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = F2F39DF86E264D178235D37F /* EJBindingImagePicker.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		30A311A5D6FC43B187C99160 /* EJBindingKeyInput.m in Sources */ = {isa = PBXBuildFile; fileRef = B32A951F714544F9B4220FDF /* EJBindingKeyInput.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		8E9FC05E912141D3B97F9451 /* EJBindingLocalStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = 17B28A7FE2204DB485396FF0 /* EJBindingLocalStorage.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		08CF62CB9F20410C9A2859AE /* EJBindingTouchInput.m in Sources */ = {isa = PBXBuildFile; fileRef = 856FA0DC94B64A70BDA2A0C7 /* EJBindingTouchInput.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		99516611089D4067959F8862 /* EJBindingWebSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 274B0DF6F07A47DCB5E1B954 /* EJBindingWebSocket.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		3778B1C11A7541DB8C5E9ACC /* EJBindingWindowEvents.m in Sources */ = {isa = PBXBuildFile; fileRef = 49A82B0AA0034CA0B27046D4 /* EJBindingWindowEvents.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		E30B48D5F1D641CD81FCA11F /* EJBindingWizCanvasMessenger.m in Sources */ = {isa = PBXBuildFile; fileRef = A334F3107A934A2CA34BFB0F /* EJBindingWizCanvasMessenger.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		CA616054485F4FD7A0AC3ADF /* EJBindingIAPManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 02D381ADD1EC4A9189F464F2 /* EJBindingIAPManager.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		590B1097B9F04D3CA0F9E256 /* EJBindingIAPProduct.m in Sources */ = {isa = PBXBuildFile; fileRef = 32B480AFBA9B4A72A0A3184C /* EJBindingIAPProduct.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		CBB214E2EB6C46B0AAA02D89 /* EJBindingIAPTransaction.m in Sources */ = {isa = PBXBuildFile; fileRef = F63A3FC54FA34461AD6F0D80 /* EJBindingIAPTransaction.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		926DD2BE44BC428699C60137 /* SocketRocket-Prefix.pch in Resources */ = {isa = PBXBuildFile; fileRef = 26749DB58B19409FA756B728 /* SocketRocket-Prefix.pch */; };
+		F50441EDF4FF4CF5A8FEF15C /* SRWebSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 940673CDEC3D4A298B1A58BA /* SRWebSocket.m */; };
+		76E98529EA7945178484C4B7 /* base64.c in Resources */ = {isa = PBXBuildFile; fileRef = 1ACFE3634731480CA250E297 /* base64.c */; };
+		6A100BE9A19E4030AC71E79D /* AlphaTexture.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 60CE2981C3F244B3B3726931 /* AlphaTexture.fsh */; };
+		9CBD09A95EEE42AD92F6035C /* Flat.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 45DDA466FD9C49FB898EB589 /* Flat.fsh */; };
+		5C5FAAD59B544850950BF979 /* Pattern.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 0E666C6C1F244D78B9BE13D2 /* Pattern.fsh */; };
+		8CC1D2EDFDC24CDF9FEC9462 /* RadialGradient.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 9809A30C33174588BACD1485 /* RadialGradient.fsh */; };
+		E701B7A0F8B44D6096212E46 /* Texture.fsh in Resources */ = {isa = PBXBuildFile; fileRef = F0B86C78C7B14F16AD820EBA /* Texture.fsh */; };
+		929CEB7E1D324EA4BB1CD26F /* Vertex.vsh in Resources */ = {isa = PBXBuildFile; fileRef = 643507F715344BDF95008AEC /* Vertex.vsh */; };
+		5FB67468001D489489D2A8DB /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 648FF5A70E96439595E00FA9 /* JavaScriptCore.framework */; };
+		28DF436C311043FEA05F0913 /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFF09EA4834D4152A1C6E473 /* OpenAL.framework */; };
+		143AFEB236A341C59B23B69F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 667B4BF1BF724D0C844E018B /* UIKit.framework */; };
+		92DA769F6B4A491C9B64587B /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D845D5C104CC494D963C37BA /* MediaPlayer.framework */; };
+		3FDC779967E1432DAB83A09D /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 822F370ECF96453B91DA8DA0 /* CoreMotion.framework */; };
+		DE73D418E1D448EBACCFC662 /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C72978204D18420FBDE3AA7F /* iAd.framework */; };
+		E8886CE6B3274B42BA3B2BBB /* GameKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F27DC4FE235943C2BE494A5D /* GameKit.framework */; };
+		749660912E0E41D3B4273E4C /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B97AD7D8406462D9F21E881 /* CoreText.framework */; };
+		AD78E12E94CC43FCB892FBF7 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41BA610CFE254FF4BA550D47 /* StoreKit.framework */; };
+		89946DC72D05445EA76E5891 /* libicucore.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = AEDE76A7EA68435FB7BE9B09 /* libicucore.dylib */; };
+		960E5BE081B94DC3BE10F7AF /* CDVLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = 48614891C7C143A6A8937005 /* CDVLocation.m */; };
+		EB13E989F74E483A881C80DD /* CDVBackgroundFetch.m in Sources */ = {isa = PBXBuildFile; fileRef = FD0D3D9B40394DC6BF6F4DE8 /* CDVBackgroundFetch.m */; };
+		317BC3BCEE46491B91798226 /* CameraPreview.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C0F33DC9F3C40B4B36FFDC9 /* CameraPreview.m */; };
+		415D13C71B5C408BA40B6AB1 /* CameraSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 968B171495F34218AE185127 /* CameraSessionManager.m */; };
+		C2CFA80B2BA14E8994043AFE /* CameraRenderController.m in Sources */ = {isa = PBXBuildFile; fileRef = DDEBE7814ADB4854BAE20BE2 /* CameraRenderController.m */; };
+		27F86BEBCE4748B38D318002 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EEC0FD7B551749B585F24641 /* ImageIO.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		CE5A58FE4808446FAE83F4F5 /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E12D0C34F44D499495403F6F /* CoreImage.framework */; };
+		F01F32A5601747D684F6CF78 /* CDVSplashScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EFCC729FDF541F28788D0F7 /* CDVSplashScreen.m */; };
+		F82F69FA6609499FA991F3E5 /* CDVViewController+SplashScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = 662570F3BC4B41F5B268C1E5 /* CDVViewController+SplashScreen.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		301BF534109A57CC0062928A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 301BF52D109A57CC0062928A /* CordovaLib.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D2AAC07E0554694100DB518D;
+			remoteInfo = CordovaLib;
+		};
+		301BF550109A68C00062928A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 301BF52D109A57CC0062928A /* CordovaLib.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = D2AAC07D0554694100DB518D;
+			remoteInfo = CordovaLib;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1D3623240D0F684500981E51 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* iOSRTCApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOSRTCApp.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F766FDD13BBADB100FB74C0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = Localizable.strings; sourceTree = "<group>"; };
+		1F766FE013BBADB100FB74C0 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = Localizable.strings; sourceTree = "<group>"; };
+		288765FC0DF74451002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		301BF52D109A57CC0062928A /* CordovaLib.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = CordovaLib.xcodeproj; path = CordovaLib/CordovaLib.xcodeproj; sourceTree = "<group>"; };
+		301BF56E109A69640062928A /* www */ = {isa = PBXFileReference; lastKnownFileType = folder; path = www; sourceTree = SOURCE_ROOT; };
+		302D95EE14D2391D003F00A1 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		302D95EF14D2391D003F00A1 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		302D95F014D2391D003F00A1 /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
+		305D5FD0115AB8F900A74A75 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		3088BBB7154F3926009F9C59 /* Default-Landscape@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Landscape@2x~ipad.png"; sourceTree = "<group>"; };
+		3088BBB8154F3926009F9C59 /* Default-Landscape~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Landscape~ipad.png"; sourceTree = "<group>"; };
+		3088BBB9154F3926009F9C59 /* Default-Portrait@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Portrait@2x~ipad.png"; sourceTree = "<group>"; };
+		3088BBBA154F3926009F9C59 /* Default-Portrait~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Portrait~ipad.png"; sourceTree = "<group>"; };
+		3088BBBB154F3926009F9C59 /* Default@2x~iphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x~iphone.png"; sourceTree = "<group>"; };
+		3088BBBC154F3926009F9C59 /* Default~iphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default~iphone.png"; sourceTree = "<group>"; };
+		308D052E1370CCF300D202BF /* icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-72.png"; sourceTree = "<group>"; };
+		308D052F1370CCF300D202BF /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		308D05301370CCF300D202BF /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon@2x.png"; sourceTree = "<group>"; };
+		30B4F2FD19D5E07200D9F7D8 /* Default-667h.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-667h.png"; sourceTree = "<group>"; };
+		30B4F2FE19D5E07200D9F7D8 /* Default-736h.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-736h.png"; sourceTree = "<group>"; };
+		30B4F2FF19D5E07200D9F7D8 /* Default-Landscape-736h.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Landscape-736h.png"; sourceTree = "<group>"; };
+		30C1856519D5FC0A00212699 /* icon-60@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-60@3x.png"; sourceTree = "<group>"; };
+		30FC414816E50CA1004E6F35 /* icon-72@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-72@2x.png"; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* iOSRTCApp-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "iOSRTCApp-Prefix.pch"; sourceTree = "<group>"; };
+		5B1594DC16A7569C00FEF299 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		7E7966D41810823500FA85AD /* icon-40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-40.png"; sourceTree = "<group>"; };
+		7E7966D51810823500FA85AD /* icon-40@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-40@2x.png"; sourceTree = "<group>"; };
+		7E7966D61810823500FA85AD /* icon-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-50.png"; sourceTree = "<group>"; };
+		7E7966D71810823500FA85AD /* icon-50@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-50@2x.png"; sourceTree = "<group>"; };
+		7E7966D81810823500FA85AD /* icon-60.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-60.png"; sourceTree = "<group>"; };
+		7E7966D91810823500FA85AD /* icon-60@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-60@2x.png"; sourceTree = "<group>"; };
+		7E7966DA1810823500FA85AD /* icon-76.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-76.png"; sourceTree = "<group>"; };
+		7E7966DB1810823500FA85AD /* icon-76@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-76@2x.png"; sourceTree = "<group>"; };
+		7E7966DC1810823500FA85AD /* icon-small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-small.png"; sourceTree = "<group>"; };
+		7E7966DD1810823500FA85AD /* icon-small@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-small@2x.png"; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* iOSRTCApp-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "iOSRTCApp-Info.plist"; path = "../iOSRTCApp-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		D4A0D8751607E02300AEF8BB /* Default-568h@2x~iphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x~iphone.png"; sourceTree = "<group>"; };
+		EB87FDF21871DA7A0020F90C /* merges */ = {isa = PBXFileReference; lastKnownFileType = folder; name = merges; path = ../../merges; sourceTree = "<group>"; };
+		EB87FDF31871DA8E0020F90C /* www */ = {isa = PBXFileReference; lastKnownFileType = folder; name = www; path = ../../www; sourceTree = "<group>"; };
+		EB87FDF41871DAF40020F90C /* config.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = config.xml; path = ../../config.xml; sourceTree = "<group>"; };
+		F840E1F0165FE0F500CFE078 /* config.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = config.xml; path = "iOSRTCApp/config.xml"; sourceTree = "<group>"; };
+		A0D401E7550A478DBA8122A1 /* CameraServer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "CameraServer.m"; path = "com.moonware.cameraserver/CameraServer.m"; sourceTree = "<group>"; fileEncoding = 4; };
+		771D6EAB5A6A4C99BA60D256 /* HTTPServer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "HTTPServer.m"; path = "com.moonware.cameraserver/HTTPServer.m"; sourceTree = "<group>"; fileEncoding = 4; };
+		845FD8EE7BDE433BA11CDD35 /* WebSocket.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "WebSocket.m"; path = "com.moonware.cameraserver/WebSocket.m"; sourceTree = "<group>"; fileEncoding = 4; };
+		B0E46140C0EC439ABFD96678 /* HTTPMessage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "HTTPMessage.m"; path = "com.moonware.cameraserver/HTTPMessage.m"; sourceTree = "<group>"; fileEncoding = 4; };
+		C4E9A0E25F494C928926C97C /* HTTPAuthenticationRequest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "HTTPAuthenticationRequest.m"; path = "com.moonware.cameraserver/HTTPAuthenticationRequest.m"; sourceTree = "<group>"; fileEncoding = 4; };
+		3CD72484684344F08D5A2661 /* HTTPConnection.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "HTTPConnection.m"; path = "com.moonware.cameraserver/HTTPConnection.m"; sourceTree = "<group>"; fileEncoding = 4; };
+		EDF8A1FC2BF74D56B17F752B /* HTTPAsyncFileResponse.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "HTTPAsyncFileResponse.m"; path = "com.moonware.cameraserver/HTTPAsyncFileResponse.m"; sourceTree = "<group>"; fileEncoding = 4; };
+		260BBFDE03C844B4BF558A99 /* HTTPErrorResponse.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "HTTPErrorResponse.m"; path = "com.moonware.cameraserver/HTTPErrorResponse.m"; sourceTree = "<group>"; fileEncoding = 4; };
+		B19375D64A6347B8BD4758ED /* HTTPDynamicFileResponse.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "HTTPDynamicFileResponse.m"; path = "com.moonware.cameraserver/HTTPDynamicFileResponse.m"; sourceTree = "<group>"; fileEncoding = 4; };
+		0C640082D92240818BE393A0 /* HTTPRedirectResponse.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "HTTPRedirectResponse.m"; path = "com.moonware.cameraserver/HTTPRedirectResponse.m"; sourceTree = "<group>"; fileEncoding = 4; };
+		833AD9B3D7FC4877A7AA2669 /* HTTPFileResponse.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "HTTPFileResponse.m"; path = "com.moonware.cameraserver/HTTPFileResponse.m"; sourceTree = "<group>"; fileEncoding = 4; };
+		B238AF8DEE874BCBA0BF4C2F /* HTTPDataResponse.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "HTTPDataResponse.m"; path = "com.moonware.cameraserver/HTTPDataResponse.m"; sourceTree = "<group>"; fileEncoding = 4; };
+		8EA723F8F0DE4D4993813CCB /* MultipartFormDataParser.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "MultipartFormDataParser.m"; path = "com.moonware.cameraserver/MultipartFormDataParser.m"; sourceTree = "<group>"; fileEncoding = 4; };
+		73228100ACBD415487199293 /* MultipartMessageHeader.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "MultipartMessageHeader.m"; path = "com.moonware.cameraserver/MultipartMessageHeader.m"; sourceTree = "<group>"; fileEncoding = 4; };
+		11CA3E64EE4D400EAFA83185 /* MultipartMessageHeaderField.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "MultipartMessageHeaderField.m"; path = "com.moonware.cameraserver/MultipartMessageHeaderField.m"; sourceTree = "<group>"; fileEncoding = 4; };
+		50AC57C65F9F496B80AD7765 /* DDData.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "DDData.m"; path = "com.moonware.cameraserver/DDData.m"; sourceTree = "<group>"; fileEncoding = 4; };
+		5B5F1A3709924149B526D43A /* DDNumber.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "DDNumber.m"; path = "com.moonware.cameraserver/DDNumber.m"; sourceTree = "<group>"; fileEncoding = 4; };
+		787E5883D21B446A8A07CFEA /* DDRange.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "DDRange.m"; path = "com.moonware.cameraserver/DDRange.m"; sourceTree = "<group>"; fileEncoding = 4; };
+		E6E150DECFAE4E72A51EDD34 /* GCDAsyncSocket.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "GCDAsyncSocket.m"; path = "com.moonware.cameraserver/GCDAsyncSocket.m"; sourceTree = "<group>"; fileEncoding = 4; };
+		E10C742C7FCD4FBF981E9CAE /* DDAbstractDatabaseLogger.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "DDAbstractDatabaseLogger.h"; path = "com.moonware.cameraserver/DDAbstractDatabaseLogger.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		1EB2F15B0A2E4DB3B08E307B /* DDAbstractDatabaseLogger.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "DDAbstractDatabaseLogger.m"; path = "com.moonware.cameraserver/DDAbstractDatabaseLogger.m"; sourceTree = "<group>"; fileEncoding = 4; };
+		322CEC7D83D3455D8EDD9C53 /* DDFileLogger.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "DDFileLogger.m"; path = "com.moonware.cameraserver/DDFileLogger.m"; sourceTree = "<group>"; fileEncoding = 4; };
+		CEEBE759AF79452CB817BE6E /* DDASLLogger.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "DDASLLogger.m"; path = "com.moonware.cameraserver/DDASLLogger.m"; sourceTree = "<group>"; fileEncoding = 4; };
+		60F6527E9459450C9FDE93D9 /* DDTTYLogger.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "DDTTYLogger.m"; path = "com.moonware.cameraserver/DDTTYLogger.m"; sourceTree = "<group>"; fileEncoding = 4; };
+		841D96E5E6AB497D9EFBF48F /* DDLog.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "DDLog.m"; path = "com.moonware.cameraserver/DDLog.m"; sourceTree = "<group>"; fileEncoding = 4; };
+		4CCCA736CAE54B3DABDDC7A1 /* ContextFilterLogFormatter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "ContextFilterLogFormatter.m"; path = "com.moonware.cameraserver/ContextFilterLogFormatter.m"; sourceTree = "<group>"; fileEncoding = 4; };
+		C428DD1F7B6B431F9F21E090 /* DispatchQueueLogFormatter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "DispatchQueueLogFormatter.m"; path = "com.moonware.cameraserver/DispatchQueueLogFormatter.m"; sourceTree = "<group>"; fileEncoding = 4; };
+		BB3B05495A4945CE952C337E /* CameraManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "CameraManager.m"; path = "com.moonware.cameraserver/CameraManager.m"; sourceTree = "<group>"; fileEncoding = 4; };
+		1E681629BA6A42AFBCA3D2D3 /* HTTPVideoResponse.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "HTTPVideoResponse.m"; path = "com.moonware.cameraserver/HTTPVideoResponse.m"; sourceTree = "<group>"; fileEncoding = 4; };
+		BCC1BC5714D74408AFC25D18 /* HTTPJsonResponse.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "HTTPJsonResponse.m"; path = "com.moonware.cameraserver/HTTPJsonResponse.m"; sourceTree = "<group>"; fileEncoding = 4; };
+		C9022B3B5AC141109F5BACD5 /* HTTPLogging.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "HTTPLogging.h"; path = "com.moonware.cameraserver/HTTPLogging.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		CF9479864EFA4B24A411C489 /* HTTPServer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "HTTPServer.h"; path = "com.moonware.cameraserver/HTTPServer.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		8838A38697944C7A93BAFF65 /* WebSocket.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "WebSocket.h"; path = "com.moonware.cameraserver/WebSocket.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		7F0EFC73C68A46708EB170DE /* HTTPMessage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "HTTPMessage.h"; path = "com.moonware.cameraserver/HTTPMessage.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		6D07A5C29D924D12BB281394 /* HTTPAuthenticationRequest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "HTTPAuthenticationRequest.h"; path = "com.moonware.cameraserver/HTTPAuthenticationRequest.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		4EB3780234904BA2B1A7E160 /* HTTPConnection.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "HTTPConnection.h"; path = "com.moonware.cameraserver/HTTPConnection.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		A6EF6B258B644D02BE542976 /* HTTPResponse.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "HTTPResponse.h"; path = "com.moonware.cameraserver/HTTPResponse.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		808580E09F994BE0AC44AA64 /* HTTPAsyncFileResponse.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "HTTPAsyncFileResponse.h"; path = "com.moonware.cameraserver/HTTPAsyncFileResponse.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		C8E1EAF34AA74A96B1D27D2B /* HTTPErrorResponse.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "HTTPErrorResponse.h"; path = "com.moonware.cameraserver/HTTPErrorResponse.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		C6D043F27680456A9E27CE2A /* HTTPDynamicFileResponse.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "HTTPDynamicFileResponse.h"; path = "com.moonware.cameraserver/HTTPDynamicFileResponse.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		413915F59EED4191BB199431 /* HTTPRedirectResponse.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "HTTPRedirectResponse.h"; path = "com.moonware.cameraserver/HTTPRedirectResponse.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		5236A2D51E8844788A95F738 /* HTTPFileResponse.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "HTTPFileResponse.h"; path = "com.moonware.cameraserver/HTTPFileResponse.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		62C91AEDB37E41499EB7E775 /* HTTPDataResponse.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "HTTPDataResponse.h"; path = "com.moonware.cameraserver/HTTPDataResponse.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		0547C9CB39F54C68BBC24CBF /* MultipartFormDataParser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "MultipartFormDataParser.h"; path = "com.moonware.cameraserver/MultipartFormDataParser.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		E4F654A873F6482D840B3709 /* MultipartMessageHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "MultipartMessageHeader.h"; path = "com.moonware.cameraserver/MultipartMessageHeader.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		86E1E6C04D134A048DE8950B /* MultipartMessageHeaderField.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "MultipartMessageHeaderField.h"; path = "com.moonware.cameraserver/MultipartMessageHeaderField.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		26147665034E49EF9DC9CC4F /* DDData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "DDData.h"; path = "com.moonware.cameraserver/DDData.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		FFFDF6578AF9487B953B8C5D /* DDNumber.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "DDNumber.h"; path = "com.moonware.cameraserver/DDNumber.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		7E93035BFE8F4EF5A383474C /* DDRange.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "DDRange.h"; path = "com.moonware.cameraserver/DDRange.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		D458C8FAD82E45BEB46752F2 /* GCDAsyncSocket.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "GCDAsyncSocket.h"; path = "com.moonware.cameraserver/GCDAsyncSocket.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		6027E4DA8D76444DA7AECAC1 /* DDFileLogger.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "DDFileLogger.h"; path = "com.moonware.cameraserver/DDFileLogger.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		BA5F08BC9A25487FBA5525AB /* DDASLLogger.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "DDASLLogger.h"; path = "com.moonware.cameraserver/DDASLLogger.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		329C9ACBBDFA4307840EFA28 /* DDTTYLogger.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "DDTTYLogger.h"; path = "com.moonware.cameraserver/DDTTYLogger.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		E70ABE8FEA284D86A43C004B /* DDLog.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "DDLog.h"; path = "com.moonware.cameraserver/DDLog.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		F4D51351A3774076838D63B3 /* ContextFilterLogFormatter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "ContextFilterLogFormatter.h"; path = "com.moonware.cameraserver/ContextFilterLogFormatter.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		D2F2445E09A34222B366B42A /* DispatchQueueLogFormatter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "DispatchQueueLogFormatter.h"; path = "com.moonware.cameraserver/DispatchQueueLogFormatter.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		781AFB9D49044169AAAD3C23 /* CameraManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "CameraManager.h"; path = "com.moonware.cameraserver/CameraManager.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		6E013A6BCC774C0496133320 /* HTTPVideoResponse.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "HTTPVideoResponse.h"; path = "com.moonware.cameraserver/HTTPVideoResponse.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		6E9A4E00987F461D9E95FADE /* HTTPJsonResponse.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "HTTPJsonResponse.h"; path = "com.moonware.cameraserver/HTTPJsonResponse.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		88A0BC3081F94806BF18ABD1 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "CFNetwork.framework"; path = "System/Library/Frameworks/CFNetwork.framework"; sourceTree = SDKROOT; fileEncoding = 4; };
+		AEBE8A527CD14FD1B4E20512 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "Foundation.framework"; path = "System/Library/Frameworks/Foundation.framework"; sourceTree = SDKROOT; fileEncoding = 4; };
+		7366DD8013C24CBA8EA2B58D /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "Security.framework"; path = "System/Library/Frameworks/Security.framework"; sourceTree = SDKROOT; fileEncoding = 4; };
+		0EC19A8F137F4C8BA5ABE97B /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "CoreVideo.framework"; path = "System/Library/Frameworks/CoreVideo.framework"; sourceTree = SDKROOT; fileEncoding = 4; };
+		5935174053F44229A924110A /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "QuartzCore.framework"; path = "System/Library/Frameworks/QuartzCore.framework"; sourceTree = SDKROOT; fileEncoding = 4; };
+		9EE62E35103E459B92FBB065 /* GCDWebServer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "GCDWebServer.framework"; path = "iOSRTCApp/Plugins/cordova-plugin-webserver/GCDWebServer.framework"; sourceTree = "<group>"; };
+		2AE125DEC57C43ACA9CA7E04 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libz.dylib"; path = "usr/lib/libz.dylib"; sourceTree = SDKROOT; fileEncoding = 4; };
+		0F2D7C0ADA104B919214EA11 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "SystemConfiguration.framework"; path = "System/Library/Frameworks/SystemConfiguration.framework"; sourceTree = SDKROOT; fileEncoding = 4; };
+		6B6362EA7CD241CDA86C9FC1 /* MyMainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "MyMainViewController.m"; path = "com.telerik.plugins.wkwebview/MyMainViewController.m"; sourceTree = "<group>"; fileEncoding = 4; };
+		C75039E6B75C413FA8170A49 /* AppDelegate+WKWebViewPolyfill.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "AppDelegate+WKWebViewPolyfill.h"; path = "com.telerik.plugins.wkwebview/AppDelegate+WKWebViewPolyfill.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		BC531ADF760A45D78E45A308 /* AppDelegate+WKWebViewPolyfill.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "AppDelegate+WKWebViewPolyfill.m"; path = "com.telerik.plugins.wkwebview/AppDelegate+WKWebViewPolyfill.m"; sourceTree = "<group>"; fileEncoding = 4; };
+		14A6F2442B764C1696B21F5A /* ReroutingUIWebView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "ReroutingUIWebView.m"; path = "com.telerik.plugins.wkwebview/ReroutingUIWebView.m"; sourceTree = "<group>"; fileEncoding = 4; };
+		DC68B872496543989A2F7545 /* CDVWebViewOperationsDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "CDVWebViewOperationsDelegate.m"; path = "com.telerik.plugins.wkwebview/CDVWebViewOperationsDelegate.m"; sourceTree = "<group>"; fileEncoding = 4; };
+		183C0248C2CE43A7AC042B14 /* CDVWebViewUIDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "CDVWebViewUIDelegate.m"; path = "com.telerik.plugins.wkwebview/CDVWebViewUIDelegate.m"; sourceTree = "<group>"; fileEncoding = 4; };
+		5B0570772B91465486939ED6 /* MyMainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "MyMainViewController.h"; path = "com.telerik.plugins.wkwebview/MyMainViewController.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		81F9DBAE322B4462837800C3 /* ReroutingUIWebView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "ReroutingUIWebView.h"; path = "com.telerik.plugins.wkwebview/ReroutingUIWebView.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		0E7596F9835D4BDE939565C8 /* CDVWebViewOperationsDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "CDVWebViewOperationsDelegate.h"; path = "com.telerik.plugins.wkwebview/CDVWebViewOperationsDelegate.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		F31A444D153E4EF48F53E1EE /* CDVWebViewUIDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "CDVWebViewUIDelegate.h"; path = "com.telerik.plugins.wkwebview/CDVWebViewUIDelegate.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		0B7F42B364AE4F2ABC512DF9 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "WebKit.framework"; path = "System/Library/Frameworks/WebKit.framework"; sourceTree = SDKROOT; fileEncoding = 4; };
+		E850A06D3FCC468E97F1F478 /* AppPreferences.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "AppPreferences.m"; path = "cordova-plugin-app-preferences/AppPreferences.m"; sourceTree = "<group>"; fileEncoding = 4; };
+		1935AA918CC34FA88F7B12B8 /* AppPreferences.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "AppPreferences.h"; path = "cordova-plugin-app-preferences/AppPreferences.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		5DE98CBAF8084273993E1843 /* CDVLogger.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "CDVLogger.m"; path = "cordova-plugin-console/CDVLogger.m"; sourceTree = "<group>"; fileEncoding = 4; };
+		67BFD65B341E48E38CCB4F68 /* CDVLogger.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "CDVLogger.h"; path = "cordova-plugin-console/CDVLogger.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		63F9A713FC9B45F081030325 /* CDVDevice.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "CDVDevice.m"; path = "cordova-plugin-device/CDVDevice.m"; sourceTree = "<group>"; fileEncoding = 4; };
+		0B1275F6293543EBAE9F55B8 /* CDVDevice.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "CDVDevice.h"; path = "cordova-plugin-device/CDVDevice.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		041CA2D973C8496388CE6CA7 /* CDVConnection.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "CDVConnection.m"; path = "cordova-plugin-network-information/CDVConnection.m"; sourceTree = "<group>"; fileEncoding = 4; };
+		A951F29793FA41A9A4429043 /* CDVReachability.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "CDVReachability.m"; path = "cordova-plugin-network-information/CDVReachability.m"; sourceTree = "<group>"; fileEncoding = 4; };
+		1D005A9E64BE42F3A9ADC20A /* CDVConnection.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "CDVConnection.h"; path = "cordova-plugin-network-information/CDVConnection.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		7FF02D85CF834B1C801B9251 /* CDVReachability.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "CDVReachability.h"; path = "cordova-plugin-network-information/CDVReachability.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		DAFC4A588D4847B88BB24F3D /* WebRTCPlugin.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "WebRTCPlugin.m"; path = "cordova-plugin-webrtc/WebRTCPlugin.m"; sourceTree = "<group>"; fileEncoding = 4; };
+		AFD3F86B9B9D49CD92CE12A4 /* libwebrtc.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libwebrtc.a"; path = "iOSRTCApp/Plugins/cordova-plugin-webrtc/libwebrtc.a"; sourceTree = "<group>"; fileEncoding = 4; };
+		005C5411BD674929AC2D9868 /* WebRTCPlugin.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "WebRTCPlugin.h"; path = "cordova-plugin-webrtc/WebRTCPlugin.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		996278EBF2CE474D85546045 /* RTCAudioSource.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "RTCAudioSource.h"; path = "cordova-plugin-webrtc/libs/header/RTCAudioSource.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		040F91D51ACD41C1A42760D8 /* RTCAudioTrack.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "RTCAudioTrack.h"; path = "cordova-plugin-webrtc/libs/header/RTCAudioTrack.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		F9BC21DA7D9842F6B8539715 /* RTCDataChannel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "RTCDataChannel.h"; path = "cordova-plugin-webrtc/libs/header/RTCDataChannel.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		B0E820A6DA4E41C48F1056A9 /* RTCEAGLVideoView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "RTCEAGLVideoView.h"; path = "cordova-plugin-webrtc/libs/header/RTCEAGLVideoView.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		C98FC7658EC94CB3AD13C655 /* RTCI420Frame.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "RTCI420Frame.h"; path = "cordova-plugin-webrtc/libs/header/RTCI420Frame.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		93BF066FFFB24E12B1F25CC4 /* RTCICECandidate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "RTCICECandidate.h"; path = "cordova-plugin-webrtc/libs/header/RTCICECandidate.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		13D1E149958E4929BBE373A8 /* RTCICEServer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "RTCICEServer.h"; path = "cordova-plugin-webrtc/libs/header/RTCICEServer.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		1DE04AA46F8B4E738ADA28A8 /* RTCMediaConstraints.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "RTCMediaConstraints.h"; path = "cordova-plugin-webrtc/libs/header/RTCMediaConstraints.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		FDB180131EDA44F981AB6B25 /* RTCMediaSource.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "RTCMediaSource.h"; path = "cordova-plugin-webrtc/libs/header/RTCMediaSource.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		DA286B9B3F294D299754113B /* RTCMediaStream.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "RTCMediaStream.h"; path = "cordova-plugin-webrtc/libs/header/RTCMediaStream.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		72BB38DF7EAE4929B1AB2D62 /* RTCMediaStreamTrack.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "RTCMediaStreamTrack.h"; path = "cordova-plugin-webrtc/libs/header/RTCMediaStreamTrack.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		9A08A6F6CCA644C2ACECFE4C /* RTCNSGLVideoView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "RTCNSGLVideoView.h"; path = "cordova-plugin-webrtc/libs/header/RTCNSGLVideoView.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		C0BAF04286104BC8B23A10E3 /* RTCOpenGLVideoRenderer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "RTCOpenGLVideoRenderer.h"; path = "cordova-plugin-webrtc/libs/header/RTCOpenGLVideoRenderer.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		C9264BD07C72437A8A1B7A51 /* RTCPair.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "RTCPair.h"; path = "cordova-plugin-webrtc/libs/header/RTCPair.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		A2010BC4E4D3417C9747E84C /* RTCPeerConnection.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "RTCPeerConnection.h"; path = "cordova-plugin-webrtc/libs/header/RTCPeerConnection.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		5417A16D23F549EC8A35B0AD /* RTCPeerConnectionDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "RTCPeerConnectionDelegate.h"; path = "cordova-plugin-webrtc/libs/header/RTCPeerConnectionDelegate.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		9CC8B02588E54AFAB9D36158 /* RTCPeerConnectionFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "RTCPeerConnectionFactory.h"; path = "cordova-plugin-webrtc/libs/header/RTCPeerConnectionFactory.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		2A5B557449B3455F83177D91 /* RTCSessionDescription.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "RTCSessionDescription.h"; path = "cordova-plugin-webrtc/libs/header/RTCSessionDescription.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		EB3283CE96114A93B1946552 /* RTCSessionDescriptionDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "RTCSessionDescriptionDelegate.h"; path = "cordova-plugin-webrtc/libs/header/RTCSessionDescriptionDelegate.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		344683D368B64BC0B4D594F3 /* RTCStatsDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "RTCStatsDelegate.h"; path = "cordova-plugin-webrtc/libs/header/RTCStatsDelegate.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		943CDF152F774890A034DB1F /* RTCStatsReport.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "RTCStatsReport.h"; path = "cordova-plugin-webrtc/libs/header/RTCStatsReport.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		37D05057DAA84F36B941135A /* RTCTypes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "RTCTypes.h"; path = "cordova-plugin-webrtc/libs/header/RTCTypes.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		5A10C66E2D50464EA7588764 /* RTCVideoCapturer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "RTCVideoCapturer.h"; path = "cordova-plugin-webrtc/libs/header/RTCVideoCapturer.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		55C3840585C64C98872D2DE1 /* RTCVideoRenderer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "RTCVideoRenderer.h"; path = "cordova-plugin-webrtc/libs/header/RTCVideoRenderer.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		763B66CA60F14BBD987169F0 /* RTCVideoSource.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "RTCVideoSource.h"; path = "cordova-plugin-webrtc/libs/header/RTCVideoSource.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		DCC9F504ED8847A0B829FC41 /* RTCVideoTrack.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "RTCVideoTrack.h"; path = "cordova-plugin-webrtc/libs/header/RTCVideoTrack.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		F015BA3AA1464D189F38267D /* libc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++.dylib"; path = "usr/lib/libc++.dylib"; sourceTree = SDKROOT; fileEncoding = 4; };
+		BBE7CF924D514456A54F9A5C /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libsqlite3.0.dylib"; path = "usr/lib/libsqlite3.0.dylib"; sourceTree = SDKROOT; fileEncoding = 4; };
+		EA045C05D4B440DEAD5D2E56 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "OpenGLES.framework"; path = "System/Library/Frameworks/OpenGLES.framework"; sourceTree = SDKROOT; fileEncoding = 4; };
+		4DFF12D854E14A4CB051AE73 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "CoreMedia.framework"; path = "System/Library/Frameworks/CoreMedia.framework"; sourceTree = SDKROOT; fileEncoding = 4; };
+		B47893503EE94B93B0D0EF5B /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "CoreAudio.framework"; path = "System/Library/Frameworks/CoreAudio.framework"; sourceTree = SDKROOT; fileEncoding = 4; };
+		2A00DE78C5C4455FB1641D4A /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "AVFoundation.framework"; path = "System/Library/Frameworks/AVFoundation.framework"; sourceTree = SDKROOT; fileEncoding = 4; };
+		13FB2CF0F6074F1EAC7CD56A /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "CoreLocation.framework"; path = "System/Library/Frameworks/CoreLocation.framework"; sourceTree = SDKROOT; fileEncoding = 4; };
+		8EBFE5D1BF9D4871B80FD76F /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "AudioToolbox.framework"; path = "System/Library/Frameworks/AudioToolbox.framework"; sourceTree = SDKROOT; fileEncoding = 4; };
+		7632A71E537546E285F233B8 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "GLKit.framework"; path = "System/Library/Frameworks/GLKit.framework"; sourceTree = SDKROOT; fileEncoding = 4; };
+		ED00355EE5994762960E2F43 /* WizCanvasPlugin.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "WizCanvasPlugin.m"; path = "jp.wizcorp.phonegap.plugin.wizCanvasPlugin/WizCanvas/WizCanvasPlugin.m"; sourceTree = "<group>"; fileEncoding = 4; };
+		2071D21D2018415CBF95274A /* WizCanvasView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "WizCanvasView.m"; path = "jp.wizcorp.phonegap.plugin.wizCanvasPlugin/WizCanvas/WizCanvasView.m"; sourceTree = "<group>"; fileEncoding = 4; };
+		0F46ACAE8A5F47668B90EEF0 /* NSString+URLEncoding.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "NSString+URLEncoding.m"; path = "jp.wizcorp.phonegap.plugin.wizCanvasPlugin/WizCanvas/NSString+URLEncoding.m"; sourceTree = "<group>"; fileEncoding = 4; };
+		DC95F9CA880B40F68D3A5DD1 /* EJAudioSourceAVAudio.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "EJAudioSourceAVAudio.m"; path = "jp.wizcorp.phonegap.plugin.wizCanvasPlugin/Ejecta/EJAudio/EJAudioSourceAVAudio.m"; sourceTree = "<group>"; fileEncoding = 4; };
+		28EE6584EE2E43779567177D /* EJAudioSourceOpenAL.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "EJAudioSourceOpenAL.m"; path = "jp.wizcorp.phonegap.plugin.wizCanvasPlugin/Ejecta/EJAudio/EJAudioSourceOpenAL.m"; sourceTree = "<group>"; fileEncoding = 4; };
+		C2CF2E92B0764682AF833ACC /* EJBindingAudio.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "EJBindingAudio.m"; path = "jp.wizcorp.phonegap.plugin.wizCanvasPlugin/Ejecta/EJAudio/EJBindingAudio.m"; sourceTree = "<group>"; fileEncoding = 4; };
+		E5FBDE9D056E45DFAE2A0807 /* EJOpenALBuffer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "EJOpenALBuffer.m"; path = "jp.wizcorp.phonegap.plugin.wizCanvasPlugin/Ejecta/EJAudio/EJOpenALBuffer.m"; sourceTree = "<group>"; fileEncoding = 4; };
+		48E5DDAF0A1C45F6AABC1243 /* EJSharedOpenALManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "EJSharedOpenALManager.m"; path = "jp.wizcorp.phonegap.plugin.wizCanvasPlugin/Ejecta/EJAudio/EJSharedOpenALManager.m"; sourceTree = "<group>"; fileEncoding = 4; };
+		9C80F17CF9C445CFAD0A9530 /* EJBindingBase.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "EJBindingBase.m"; path = "jp.wizcorp.phonegap.plugin.wizCanvasPlugin/Ejecta/EJBindingBase.m"; sourceTree = "<group>"; fileEncoding = 4; };
+		743205E104A64D7EB2A39A2C /* EJBindingEjectaCore.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "EJBindingEjectaCore.m"; path = "jp.wizcorp.phonegap.plugin.wizCanvasPlugin/Ejecta/EJBindingEjectaCore.m"; sourceTree = "<group>"; fileEncoding = 4; };
+		A63C99DD2EA646F0872B9B54 /* EJBindingEventedBase.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "EJBindingEventedBase.m"; path = "jp.wizcorp.phonegap.plugin.wizCanvasPlugin/Ejecta/EJBindingEventedBase.m"; sourceTree = "<group>"; fileEncoding = 4; };
+		669EB4F61EC34654A9914AD1 /* EJBindingVideo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "EJBindingVideo.m"; path = "jp.wizcorp.phonegap.plugin.wizCanvasPlugin/Ejecta/EJBindingVideo.m"; sourceTree = "<group>"; fileEncoding = 4; };
+		51E464869EFA46F9B5A61CEE /* EJBindingCanvasContext2D.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "EJBindingCanvasContext2D.m"; path = "jp.wizcorp.phonegap.plugin.wizCanvasPlugin/Ejecta/EJCanvas/2D/EJBindingCanvasContext2D.m"; sourceTree = "<group>"; fileEncoding = 4; };
+		44BB1652F84640D4A4C8DACA /* EJBindingCanvasGradient.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "EJBindingCanvasGradient.m"; path = "jp.wizcorp.phonegap.plugin.wizCanvasPlugin/Ejecta/EJCanvas/2D/EJBindingCanvasGradient.m"; sourceTree = "<group>"; fileEncoding = 4; };
+		285B951B90EA40778567BA26 /* EJBindingCanvasPattern.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "EJBindingCanvasPattern.m"; path = "jp.wizcorp.phonegap.plugin.wizCanvasPlugin/Ejecta/EJCanvas/2D/EJBindingCanvasPattern.m"; sourceTree = "<group>"; fileEncoding = 4; };
+		64A1A7D0F5ED48EEABD8FE2D /* EJBindingImageData.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "EJBindingImageData.m"; path = "jp.wizcorp.phonegap.plugin.wizCanvasPlugin/Ejecta/EJCanvas/2D/EJBindingImageData.m"; sourceTree = "<group>"; fileEncoding = 4; };
+		6BCD5E08B2634F819E54306A /* EJBindingTextMetrics.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "EJBindingTextMetrics.m"; path = "jp.wizcorp.phonegap.plugin.wizCanvasPlugin/Ejecta/EJCanvas/2D/EJBindingTextMetrics.m"; sourceTree = "<group>"; fileEncoding = 4; };
+		ED742AAA5D4C41D682ECFFC5 /* EJCanvasContext2D.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "EJCanvasContext2D.m"; path = "jp.wizcorp.phonegap.plugin.wizCanvasPlugin/Ejecta/EJCanvas/2D/EJCanvasContext2D.m"; sourceTree = "<group>"; fileEncoding = 4; };
+		F52E3C9C7C6F48A280DDCBCA /* EJCanvasContext2DScreen.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "EJCanvasContext2DScreen.m"; path = "jp.wizcorp.phonegap.plugin.wizCanvasPlugin/Ejecta/EJCanvas/2D/EJCanvasContext2DScreen.m"; sourceTree = "<group>"; fileEncoding = 4; };
+		19922349D4DD495CBF040FC5 /* EJCanvasContext2DTexture.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "EJCanvasContext2DTexture.m"; path = "jp.wizcorp.phonegap.plugin.wizCanvasPlugin/Ejecta/EJCanvas/2D/EJCanvasContext2DTexture.m"; sourceTree = "<group>"; fileEncoding = 4; };
+		2B6ECC9625E3409D8C5E45C8 /* EJCanvasGradient.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "EJCanvasGradient.m"; path = "jp.wizcorp.phonegap.plugin.wizCanvasPlugin/Ejecta/EJCanvas/2D/EJCanvasGradient.m"; sourceTree = "<group>"; fileEncoding = 4; };
+		1449FED337EB4BB8949C397F /* EJCanvasPattern.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "EJCanvasPattern.m"; path = "jp.wizcorp.phonegap.plugin.wizCanvasPlugin/Ejecta/EJCanvas/2D/EJCanvasPattern.m"; sourceTree = "<group>"; fileEncoding = 4; };
+		B20B68ABCA804CFEBC180ADB /* EJConvertColorRGBA.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "EJConvertColorRGBA.m"; path = "jp.wizcorp.phonegap.plugin.wizCanvasPlugin/Ejecta/EJCanvas/2D/EJConvertColorRGBA.m"; sourceTree = "<group>"; fileEncoding = 4; };
+		D3C55B7857274352928ADE88 /* EJFont.mm */ = {isa = PBXFileReference; lastKnownFileType = unknown; name = "EJFont.mm"; path = "jp.wizcorp.phonegap.plugin.wizCanvasPlugin/Ejecta/EJCanvas/2D/EJFont.mm"; sourceTree = "<group>"; fileEncoding = 4; };
+		FDF38815B0914A629945613B /* EJFontCache.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "EJFontCache.m"; path = "jp.wizcorp.phonegap.plugin.wizCanvasPlugin/Ejecta/EJCanvas/2D/EJFontCache.m"; sourceTree = "<group>"; fileEncoding = 4; };
+		A978760B8C5E468B9DBD98B8 /* EJGLProgram2D.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "EJGLProgram2D.m"; path = "jp.wizcorp.phonegap.plugin.wizCanvasPlugin/Ejecta/EJCanvas/2D/EJGLProgram2D.m"; sourceTree = "<group>"; fileEncoding = 4; };
+		DA90F8474DFF4B54AFB37E80 /* EJGLProgram2DRadialGradient.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "EJGLProgram2DRadialGradient.m"; path = "jp.wizcorp.phonegap.plugin.wizCanvasPlugin/Ejecta/EJCanvas/2D/EJGLProgram2DRadialGradient.m"; sourceTree = "<group>"; fileEncoding = 4; };
+		44F7A709B7D44A70995555BD /* EJImageData.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "EJImageData.m"; path = "jp.wizcorp.phonegap.plugin.wizCanvasPlugin/Ejecta/EJCanvas/2D/EJImageData.m"; sourceTree = "<group>"; fileEncoding = 4; };
+		3884A10230C44D89848D149A /* EJPath.mm */ = {isa = PBXFileReference; lastKnownFileType = unknown; name = "EJPath.mm"; path = "jp.wizcorp.phonegap.plugin.wizCanvasPlugin/Ejecta/EJCanvas/2D/EJPath.mm"; sourceTree = "<group>"; fileEncoding = 4; };
+		8E238B30DAEF4C79A47C8CDF /* EAGLView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "EAGLView.m"; path = "jp.wizcorp.phonegap.plugin.wizCanvasPlugin/Ejecta/EJCanvas/EAGLView.m"; sourceTree = "<group>"; fileEncoding = 4; };
+		03C5231385294CE985EC176D /* EJBindingCanvas.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "EJBindingCanvas.m"; path = "jp.wizcorp.phonegap.plugin.wizCanvasPlugin/Ejecta/EJCanvas/EJBindingCanvas.m"; sourceTree = "<group>"; fileEncoding = 4; };
+		9FE65714009A4CE08E34DCAE /* EJBindingCanvasStyle.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "EJBindingCanvasStyle.m"; path = "jp.wizcorp.phonegap.plugin.wizCanvasPlugin/Ejecta/EJCanvas/EJBindingCanvasStyle.m"; sourceTree = "<group>"; fileEncoding = 4; };
+		4253AF6D017848FE9994C5AD /* EJBindingImage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "EJBindingImage.m"; path = "jp.wizcorp.phonegap.plugin.wizCanvasPlugin/Ejecta/EJCanvas/EJBindingImage.m"; sourceTree = "<group>"; fileEncoding = 4; };
+		984D033E08934D18A55CA430 /* EJCanvasContext.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "EJCanvasContext.m"; path = "jp.wizcorp.phonegap.plugin.wizCanvasPlugin/Ejecta/EJCanvas/EJCanvasContext.m"; sourceTree = "<group>"; fileEncoding = 4; };
+		5F60EB53B57F4A62B50B4C8D /* EJSharedTextureCache.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "EJSharedTextureCache.m"; path = "jp.wizcorp.phonegap.plugin.wizCanvasPlugin/Ejecta/EJCanvas/EJSharedTextureCache.m"; sourceTree = "<group>"; fileEncoding = 4; };
+		9B12668236DB45A38DB18B5F /* EJTexture.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "EJTexture.m"; path = "jp.wizcorp.phonegap.plugin.wizCanvasPlugin/Ejecta/EJCanvas/EJTexture.m"; sourceTree = "<group>"; fileEncoding = 4; };
+		6F44E71F3ADB40E1B53631D9 /* EJTextureStorage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "EJTextureStorage.m"; path = "jp.wizcorp.phonegap.plugin.wizCanvasPlugin/Ejecta/EJCanvas/EJTextureStorage.m"; sourceTree = "<group>"; fileEncoding = 4; };
+		EAFA3B6EFFD948AEB05009DA /* EJBindingCanvasContextWebGL.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "EJBindingCanvasContextWebGL.m"; path = "jp.wizcorp.phonegap.plugin.wizCanvasPlugin/Ejecta/EJCanvas/WebGL/EJBindingCanvasContextWebGL.m"; sourceTree = "<group>"; fileEncoding = 4; };
+		05D11D1EF58C43D3A949B6D4 /* EJCanvasContextWebGLScreen.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "EJCanvasContextWebGLScreen.m"; path = "jp.wizcorp.phonegap.plugin.wizCanvasPlugin/Ejecta/EJCanvas/WebGL/EJCanvasContextWebGLScreen.m"; sourceTree = "<group>"; fileEncoding = 4; };
+		3B238D1BCC374E0E9E308096 /* EJBindingWebGLExtensions.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "EJBindingWebGLExtensions.m"; path = "jp.wizcorp.phonegap.plugin.wizCanvasPlugin/Ejecta/EJCanvas/WebGL/EJBindingWebGLExtensions.m"; sourceTree = "<group>"; fileEncoding = 4; };
+		10D52C2E097D4010B3A7328A /* EJBindingWebGLObjects.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "EJBindingWebGLObjects.m"; path = "jp.wizcorp.phonegap.plugin.wizCanvasPlugin/Ejecta/EJCanvas/WebGL/EJBindingWebGLObjects.m"; sourceTree = "<group>"; fileEncoding = 4; };
+		BFB54A864BEB4C5AB943A7A1 /* EJCanvasContextWebGL.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "EJCanvasContextWebGL.m"; path = "jp.wizcorp.phonegap.plugin.wizCanvasPlugin/Ejecta/EJCanvas/WebGL/EJCanvasContextWebGL.m"; sourceTree = "<group>"; fileEncoding = 4; };
+		0B9CDF8513FD4FAB9434B73B /* EJConvertWebGL.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "EJConvertWebGL.m"; path = "jp.wizcorp.phonegap.plugin.wizCanvasPlugin/Ejecta/EJCanvas/WebGL/EJConvertWebGL.m"; sourceTree = "<group>"; fileEncoding = 4; };
+		CD78BE1A4A5F4FD39A8BB5D0 /* EJCanvasContextWebGLTexture.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "EJCanvasContextWebGLTexture.m"; path = "jp.wizcorp.phonegap.plugin.wizCanvasPlugin/Ejecta/EJCanvas/WebGL/EJCanvasContextWebGLTexture.m"; sourceTree = "<group>"; fileEncoding = 4; };
+		4DF058BB51DD4DB58B009C1D /* EJClassLoader.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "EJClassLoader.m"; path = "jp.wizcorp.phonegap.plugin.wizCanvasPlugin/Ejecta/EJClassLoader.m"; sourceTree = "<group>"; fileEncoding = 4; };
+		038E3393A0F84711B8D30148 /* EJConvert.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "EJConvert.m"; path = "jp.wizcorp.phonegap.plugin.wizCanvasPlugin/Ejecta/EJConvert.m"; sourceTree = "<group>"; fileEncoding = 4; };
+		9FBBDFEA4AE34EA2881AE669 /* EJNonRetainingProxy.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "EJNonRetainingProxy.m"; path = "jp.wizcorp.phonegap.plugin.wizCanvasPlugin/Ejecta/EJNonRetainingProxy.m"; sourceTree = "<group>"; fileEncoding = 4; };
+		3F09DA29EDB248FEA4A6AC12 /* EJSharedOpenGLContext.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "EJSharedOpenGLContext.m"; path = "jp.wizcorp.phonegap.plugin.wizCanvasPlugin/Ejecta/EJSharedOpenGLContext.m"; sourceTree = "<group>"; fileEncoding = 4; };
+		2A645E1011454881A74C690F /* EJTimer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "EJTimer.m"; path = "jp.wizcorp.phonegap.plugin.wizCanvasPlugin/Ejecta/EJTimer.m"; sourceTree = "<group>"; fileEncoding = 4; };
+		84D05B8A6601417791A94375 /* EJBindingAdBanner.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "EJBindingAdBanner.m"; path = "jp.wizcorp.phonegap.plugin.wizCanvasPlugin/Ejecta/EJUtils/EJBindingAdBanner.m"; sourceTree = "<group>"; fileEncoding = 4; };
+		78F63916063348A5B8C88788 /* EJBindingDeviceMotion.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "EJBindingDeviceMotion.m"; path = "jp.wizcorp.phonegap.plugin.wizCanvasPlugin/Ejecta/EJUtils/EJBindingDeviceMotion.m"; sourceTree = "<group>"; fileEncoding = 4; };
+		D14EB40F97794FAF9100D175 /* EJBindingGeolocation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "EJBindingGeolocation.m"; path = "jp.wizcorp.phonegap.plugin.wizCanvasPlugin/Ejecta/EJUtils/EJBindingGeolocation.m"; sourceTree = "<group>"; fileEncoding = 4; };
+		A00C906A056B495DB07663AE /* EJBindingGameCenter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "EJBindingGameCenter.m"; path = "jp.wizcorp.phonegap.plugin.wizCanvasPlugin/Ejecta/EJUtils/EJBindingGameCenter.m"; sourceTree = "<group>"; fileEncoding = 4; };
+		C20DAF1A3ED047F8A55A010F /* EJBindingHttpRequest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "EJBindingHttpRequest.m"; path = "jp.wizcorp.phonegap.plugin.wizCanvasPlugin/Ejecta/EJUtils/EJBindingHttpRequest.m"; sourceTree = "<group>"; fileEncoding = 4; };
+		F2F39DF86E264D178235D37F /* EJBindingImagePicker.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "EJBindingImagePicker.m"; path = "jp.wizcorp.phonegap.plugin.wizCanvasPlugin/Ejecta/EJUtils/EJBindingImagePicker.m"; sourceTree = "<group>"; fileEncoding = 4; };
+		B32A951F714544F9B4220FDF /* EJBindingKeyInput.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "EJBindingKeyInput.m"; path = "jp.wizcorp.phonegap.plugin.wizCanvasPlugin/Ejecta/EJUtils/EJBindingKeyInput.m"; sourceTree = "<group>"; fileEncoding = 4; };
+		17B28A7FE2204DB485396FF0 /* EJBindingLocalStorage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "EJBindingLocalStorage.m"; path = "jp.wizcorp.phonegap.plugin.wizCanvasPlugin/Ejecta/EJUtils/EJBindingLocalStorage.m"; sourceTree = "<group>"; fileEncoding = 4; };
+		856FA0DC94B64A70BDA2A0C7 /* EJBindingTouchInput.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "EJBindingTouchInput.m"; path = "jp.wizcorp.phonegap.plugin.wizCanvasPlugin/Ejecta/EJUtils/EJBindingTouchInput.m"; sourceTree = "<group>"; fileEncoding = 4; };
+		274B0DF6F07A47DCB5E1B954 /* EJBindingWebSocket.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "EJBindingWebSocket.m"; path = "jp.wizcorp.phonegap.plugin.wizCanvasPlugin/Ejecta/EJUtils/EJBindingWebSocket.m"; sourceTree = "<group>"; fileEncoding = 4; };
+		49A82B0AA0034CA0B27046D4 /* EJBindingWindowEvents.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "EJBindingWindowEvents.m"; path = "jp.wizcorp.phonegap.plugin.wizCanvasPlugin/Ejecta/EJUtils/EJBindingWindowEvents.m"; sourceTree = "<group>"; fileEncoding = 4; };
+		A334F3107A934A2CA34BFB0F /* EJBindingWizCanvasMessenger.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "EJBindingWizCanvasMessenger.m"; path = "jp.wizcorp.phonegap.plugin.wizCanvasPlugin/Ejecta/EJUtils/EJBindingWizCanvasMessenger.m"; sourceTree = "<group>"; fileEncoding = 4; };
+		02D381ADD1EC4A9189F464F2 /* EJBindingIAPManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "EJBindingIAPManager.m"; path = "jp.wizcorp.phonegap.plugin.wizCanvasPlugin/Ejecta/EJUtils/IAP/EJBindingIAPManager.m"; sourceTree = "<group>"; fileEncoding = 4; };
+		32B480AFBA9B4A72A0A3184C /* EJBindingIAPProduct.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "EJBindingIAPProduct.m"; path = "jp.wizcorp.phonegap.plugin.wizCanvasPlugin/Ejecta/EJUtils/IAP/EJBindingIAPProduct.m"; sourceTree = "<group>"; fileEncoding = 4; };
+		F63A3FC54FA34461AD6F0D80 /* EJBindingIAPTransaction.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "EJBindingIAPTransaction.m"; path = "jp.wizcorp.phonegap.plugin.wizCanvasPlugin/Ejecta/EJUtils/IAP/EJBindingIAPTransaction.m"; sourceTree = "<group>"; fileEncoding = 4; };
+		26749DB58B19409FA756B728 /* SocketRocket-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = unknown; name = "SocketRocket-Prefix.pch"; path = "jp.wizcorp.phonegap.plugin.wizCanvasPlugin/lib/SocketRocket/SocketRocket-Prefix.pch"; sourceTree = "<group>"; fileEncoding = 4; };
+		940673CDEC3D4A298B1A58BA /* SRWebSocket.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "SRWebSocket.m"; path = "jp.wizcorp.phonegap.plugin.wizCanvasPlugin/lib/SocketRocket/SRWebSocket.m"; sourceTree = "<group>"; fileEncoding = 4; };
+		1ACFE3634731480CA250E297 /* base64.c */ = {isa = PBXFileReference; lastKnownFileType = unknown; name = "base64.c"; path = "jp.wizcorp.phonegap.plugin.wizCanvasPlugin/lib/base64.c"; sourceTree = "<group>"; fileEncoding = 4; };
+		02A8BBB7F7FF42E9A9C90B73 /* WizCanvasPlugin.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "WizCanvasPlugin.h"; path = "jp.wizcorp.phonegap.plugin.wizCanvasPlugin/WizCanvas/WizCanvasPlugin.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		55E10A95EDDF49598DD7FDD7 /* WizCanvasView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "WizCanvasView.h"; path = "jp.wizcorp.phonegap.plugin.wizCanvasPlugin/WizCanvas/WizCanvasView.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		EAC493E7022E49E28D354C5C /* NSString+URLEncoding.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "NSString+URLEncoding.h"; path = "jp.wizcorp.phonegap.plugin.wizCanvasPlugin/WizCanvas/NSString+URLEncoding.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		BFAF7170473C43D0A4BB355D /* EJAudioSource.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "EJAudioSource.h"; path = "jp.wizcorp.phonegap.plugin.wizCanvasPlugin/Ejecta/EJAudio/EJAudioSource.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		FCDA6E49D78E4936864270FA /* EJAudioSourceAVAudio.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "EJAudioSourceAVAudio.h"; path = "jp.wizcorp.phonegap.plugin.wizCanvasPlugin/Ejecta/EJAudio/EJAudioSourceAVAudio.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		E751E3E3F0F149A99B3E7ECC /* EJAudioSourceOpenAL.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "EJAudioSourceOpenAL.h"; path = "jp.wizcorp.phonegap.plugin.wizCanvasPlugin/Ejecta/EJAudio/EJAudioSourceOpenAL.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		BDD9B29962744522B8A0DF3B /* EJBindingAudio.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "EJBindingAudio.h"; path = "jp.wizcorp.phonegap.plugin.wizCanvasPlugin/Ejecta/EJAudio/EJBindingAudio.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		C02C5D0AF94A4D359CD2D019 /* EJOpenALBuffer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "EJOpenALBuffer.h"; path = "jp.wizcorp.phonegap.plugin.wizCanvasPlugin/Ejecta/EJAudio/EJOpenALBuffer.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		B9EC4841E9D4436DAB523604 /* EJSharedOpenALManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "EJSharedOpenALManager.h"; path = "jp.wizcorp.phonegap.plugin.wizCanvasPlugin/Ejecta/EJAudio/EJSharedOpenALManager.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		399056986FCF4AE790C608CB /* EJBindingBase.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "EJBindingBase.h"; path = "jp.wizcorp.phonegap.plugin.wizCanvasPlugin/Ejecta/EJBindingBase.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		9E7E8662A26D4F1086168123 /* EJBindingEjectaCore.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "EJBindingEjectaCore.h"; path = "jp.wizcorp.phonegap.plugin.wizCanvasPlugin/Ejecta/EJBindingEjectaCore.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		F5FD10A0A7B84EDDB154A25A /* EJBindingEventedBase.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "EJBindingEventedBase.h"; path = "jp.wizcorp.phonegap.plugin.wizCanvasPlugin/Ejecta/EJBindingEventedBase.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		CDE5D09B217B4A6DB0BB9C64 /* EJBindingVideo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "EJBindingVideo.h"; path = "jp.wizcorp.phonegap.plugin.wizCanvasPlugin/Ejecta/EJBindingVideo.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		0EF244744F0A497DB299DAF6 /* EJBindingCanvasContext2D.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "EJBindingCanvasContext2D.h"; path = "jp.wizcorp.phonegap.plugin.wizCanvasPlugin/Ejecta/EJCanvas/2D/EJBindingCanvasContext2D.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		11C6077B72A54321BB4DE9D8 /* EJBindingCanvasGradient.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "EJBindingCanvasGradient.h"; path = "jp.wizcorp.phonegap.plugin.wizCanvasPlugin/Ejecta/EJCanvas/2D/EJBindingCanvasGradient.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		0231B34321204F4BB51EFB3B /* EJBindingCanvasPattern.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "EJBindingCanvasPattern.h"; path = "jp.wizcorp.phonegap.plugin.wizCanvasPlugin/Ejecta/EJCanvas/2D/EJBindingCanvasPattern.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		58E2BC10BEE542E0A2AE0BEB /* EJBindingImageData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "EJBindingImageData.h"; path = "jp.wizcorp.phonegap.plugin.wizCanvasPlugin/Ejecta/EJCanvas/2D/EJBindingImageData.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		027716FFA4F64DDDA38AE39A /* EJBindingTextMetrics.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "EJBindingTextMetrics.h"; path = "jp.wizcorp.phonegap.plugin.wizCanvasPlugin/Ejecta/EJCanvas/2D/EJBindingTextMetrics.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		D4CD694164774CEBA91EAAB1 /* EJCanvas2DTypes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "EJCanvas2DTypes.h"; path = "jp.wizcorp.phonegap.plugin.wizCanvasPlugin/Ejecta/EJCanvas/2D/EJCanvas2DTypes.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		D01BCAD419F248C7BD7EC5B8 /* EJCanvasContext2D.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "EJCanvasContext2D.h"; path = "jp.wizcorp.phonegap.plugin.wizCanvasPlugin/Ejecta/EJCanvas/2D/EJCanvasContext2D.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		4BE7222C940F41438C3D950D /* EJCanvasContext2DScreen.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "EJCanvasContext2DScreen.h"; path = "jp.wizcorp.phonegap.plugin.wizCanvasPlugin/Ejecta/EJCanvas/2D/EJCanvasContext2DScreen.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		6A49B324E4DA4C5DB9ED4C16 /* EJCanvasContext2DTexture.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "EJCanvasContext2DTexture.h"; path = "jp.wizcorp.phonegap.plugin.wizCanvasPlugin/Ejecta/EJCanvas/2D/EJCanvasContext2DTexture.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		FEE26E0AE869452682DB4B42 /* EJCanvasGradient.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "EJCanvasGradient.h"; path = "jp.wizcorp.phonegap.plugin.wizCanvasPlugin/Ejecta/EJCanvas/2D/EJCanvasGradient.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		A2E0B3B8BE564F779D56B3EE /* EJCanvasPattern.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "EJCanvasPattern.h"; path = "jp.wizcorp.phonegap.plugin.wizCanvasPlugin/Ejecta/EJCanvas/2D/EJCanvasPattern.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		55EDAF91E0F3438CA2BB07F7 /* EJConvertColorRGBA.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "EJConvertColorRGBA.h"; path = "jp.wizcorp.phonegap.plugin.wizCanvasPlugin/Ejecta/EJCanvas/2D/EJConvertColorRGBA.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		33358E410AF345DF84384D1F /* EJFont.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "EJFont.h"; path = "jp.wizcorp.phonegap.plugin.wizCanvasPlugin/Ejecta/EJCanvas/2D/EJFont.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		328877761CCB4096861E0CA3 /* EJFontCache.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "EJFontCache.h"; path = "jp.wizcorp.phonegap.plugin.wizCanvasPlugin/Ejecta/EJCanvas/2D/EJFontCache.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		A48054D3990C44B188E2491B /* EJGLProgram2D.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "EJGLProgram2D.h"; path = "jp.wizcorp.phonegap.plugin.wizCanvasPlugin/Ejecta/EJCanvas/2D/EJGLProgram2D.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		3616A65B3A7E445B8C0D4CC7 /* EJGLProgram2DRadialGradient.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "EJGLProgram2DRadialGradient.h"; path = "jp.wizcorp.phonegap.plugin.wizCanvasPlugin/Ejecta/EJCanvas/2D/EJGLProgram2DRadialGradient.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		83570C6F03AB44E784E09DDA /* EJImageData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "EJImageData.h"; path = "jp.wizcorp.phonegap.plugin.wizCanvasPlugin/Ejecta/EJCanvas/2D/EJImageData.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		30683E64C3EA498FA81FAA10 /* EJPath.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "EJPath.h"; path = "jp.wizcorp.phonegap.plugin.wizCanvasPlugin/Ejecta/EJCanvas/2D/EJPath.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		26EB90E9B98340CC8A9BBF46 /* EAGLView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "EAGLView.h"; path = "jp.wizcorp.phonegap.plugin.wizCanvasPlugin/Ejecta/EJCanvas/EAGLView.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		AC553A1F08C1447C9C8F576A /* EJBindingCanvas.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "EJBindingCanvas.h"; path = "jp.wizcorp.phonegap.plugin.wizCanvasPlugin/Ejecta/EJCanvas/EJBindingCanvas.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		CCCE576D5EE64D9A88A5DD5E /* EJBindingCanvasStyle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "EJBindingCanvasStyle.h"; path = "jp.wizcorp.phonegap.plugin.wizCanvasPlugin/Ejecta/EJCanvas/EJBindingCanvasStyle.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		422C5DFC79E3416198079DC8 /* EJBindingImage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "EJBindingImage.h"; path = "jp.wizcorp.phonegap.plugin.wizCanvasPlugin/Ejecta/EJCanvas/EJBindingImage.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		E816EF3DC95944DB95B8B20C /* EJCanvasContext.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "EJCanvasContext.h"; path = "jp.wizcorp.phonegap.plugin.wizCanvasPlugin/Ejecta/EJCanvas/EJCanvasContext.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		153448D0E59E451C9AA5FFA7 /* EJDrawable.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "EJDrawable.h"; path = "jp.wizcorp.phonegap.plugin.wizCanvasPlugin/Ejecta/EJCanvas/EJDrawable.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		E19CDDB6A0444578A5284012 /* EJPresentable.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "EJPresentable.h"; path = "jp.wizcorp.phonegap.plugin.wizCanvasPlugin/Ejecta/EJCanvas/EJPresentable.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		1D59ED15D19744D1B298DDC9 /* EJSharedTextureCache.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "EJSharedTextureCache.h"; path = "jp.wizcorp.phonegap.plugin.wizCanvasPlugin/Ejecta/EJCanvas/EJSharedTextureCache.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		1872F2E60BA94F98B769000F /* EJTexture.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "EJTexture.h"; path = "jp.wizcorp.phonegap.plugin.wizCanvasPlugin/Ejecta/EJCanvas/EJTexture.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		DBDD5B560B1E40C5B7D06D79 /* EJTextureStorage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "EJTextureStorage.h"; path = "jp.wizcorp.phonegap.plugin.wizCanvasPlugin/Ejecta/EJCanvas/EJTextureStorage.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		0CAE34537C6C44CC8AC4F552 /* EJBindingCanvasContextWebGL.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "EJBindingCanvasContextWebGL.h"; path = "jp.wizcorp.phonegap.plugin.wizCanvasPlugin/Ejecta/EJCanvas/WebGL/EJBindingCanvasContextWebGL.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		7F6F6ABEB65E4AF1A4E3DC46 /* EJCanvasContextWebGLScreen.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "EJCanvasContextWebGLScreen.h"; path = "jp.wizcorp.phonegap.plugin.wizCanvasPlugin/Ejecta/EJCanvas/WebGL/EJCanvasContextWebGLScreen.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		37B0EF40E460472B8DCCC27D /* EJBindingWebGLExtensions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "EJBindingWebGLExtensions.h"; path = "jp.wizcorp.phonegap.plugin.wizCanvasPlugin/Ejecta/EJCanvas/WebGL/EJBindingWebGLExtensions.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		203DD002A9B3499F80E77A56 /* EJBindingWebGLObjects.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "EJBindingWebGLObjects.h"; path = "jp.wizcorp.phonegap.plugin.wizCanvasPlugin/Ejecta/EJCanvas/WebGL/EJBindingWebGLObjects.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		1681908BE6E84B97AAF6EDF8 /* EJCanvasContextWebGL.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "EJCanvasContextWebGL.h"; path = "jp.wizcorp.phonegap.plugin.wizCanvasPlugin/Ejecta/EJCanvas/WebGL/EJCanvasContextWebGL.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		D481CBDD56EE47AB8F96074C /* EJConvertWebGL.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "EJConvertWebGL.h"; path = "jp.wizcorp.phonegap.plugin.wizCanvasPlugin/Ejecta/EJCanvas/WebGL/EJConvertWebGL.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		25306C4A0A17459D8B176053 /* EJCanvasContextWebGLTexture.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "EJCanvasContextWebGLTexture.h"; path = "jp.wizcorp.phonegap.plugin.wizCanvasPlugin/Ejecta/EJCanvas/WebGL/EJCanvasContextWebGLTexture.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		FEDD3D163E4A47A48BEE5428 /* EJClassLoader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "EJClassLoader.h"; path = "jp.wizcorp.phonegap.plugin.wizCanvasPlugin/Ejecta/EJClassLoader.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		65E8909D53E34DA39E357A39 /* EJConvert.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "EJConvert.h"; path = "jp.wizcorp.phonegap.plugin.wizCanvasPlugin/Ejecta/EJConvert.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		BBE0AB3002314F40B2FEBBEF /* EJNonRetainingProxy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "EJNonRetainingProxy.h"; path = "jp.wizcorp.phonegap.plugin.wizCanvasPlugin/Ejecta/EJNonRetainingProxy.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		CCD14F8515574D29AC717AEC /* EJSharedOpenGLContext.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "EJSharedOpenGLContext.h"; path = "jp.wizcorp.phonegap.plugin.wizCanvasPlugin/Ejecta/EJSharedOpenGLContext.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		BE77BC408C99427EA7D29278 /* EJTimer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "EJTimer.h"; path = "jp.wizcorp.phonegap.plugin.wizCanvasPlugin/Ejecta/EJTimer.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		E352C328317547BC81C39CC9 /* EJBindingAdBanner.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "EJBindingAdBanner.h"; path = "jp.wizcorp.phonegap.plugin.wizCanvasPlugin/Ejecta/EJUtils/EJBindingAdBanner.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		29774A9505224CB4A4C8E682 /* EJBindingDeviceMotion.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "EJBindingDeviceMotion.h"; path = "jp.wizcorp.phonegap.plugin.wizCanvasPlugin/Ejecta/EJUtils/EJBindingDeviceMotion.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		28E4AAA89F4A47A88BF25323 /* EJBindingGeolocation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "EJBindingGeolocation.h"; path = "jp.wizcorp.phonegap.plugin.wizCanvasPlugin/Ejecta/EJUtils/EJBindingGeolocation.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		0E7B36B9D256461FB8570B88 /* EJBindingGameCenter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "EJBindingGameCenter.h"; path = "jp.wizcorp.phonegap.plugin.wizCanvasPlugin/Ejecta/EJUtils/EJBindingGameCenter.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		4903B5EED03D4385AA86E5D0 /* EJBindingHttpRequest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "EJBindingHttpRequest.h"; path = "jp.wizcorp.phonegap.plugin.wizCanvasPlugin/Ejecta/EJUtils/EJBindingHttpRequest.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		34570AF92D234DD685CDC9C9 /* EJBindingImagePicker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "EJBindingImagePicker.h"; path = "jp.wizcorp.phonegap.plugin.wizCanvasPlugin/Ejecta/EJUtils/EJBindingImagePicker.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		FB4C006039D0407897A7824F /* EJBindingKeyInput.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "EJBindingKeyInput.h"; path = "jp.wizcorp.phonegap.plugin.wizCanvasPlugin/Ejecta/EJUtils/EJBindingKeyInput.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		263CA2B9E4A642FBA9389ECA /* EJBindingLocalStorage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "EJBindingLocalStorage.h"; path = "jp.wizcorp.phonegap.plugin.wizCanvasPlugin/Ejecta/EJUtils/EJBindingLocalStorage.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		244F1389FAAB44999C287390 /* EJBindingTouchInput.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "EJBindingTouchInput.h"; path = "jp.wizcorp.phonegap.plugin.wizCanvasPlugin/Ejecta/EJUtils/EJBindingTouchInput.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		0B15049F21A748BE8525DE94 /* EJBindingWebSocket.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "EJBindingWebSocket.h"; path = "jp.wizcorp.phonegap.plugin.wizCanvasPlugin/Ejecta/EJUtils/EJBindingWebSocket.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		9447265B0E9741D09661C0BB /* EJBindingWindowEvents.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "EJBindingWindowEvents.h"; path = "jp.wizcorp.phonegap.plugin.wizCanvasPlugin/Ejecta/EJUtils/EJBindingWindowEvents.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		B028D89FFD28459C859B7AF2 /* EJBindingWizCanvasMessenger.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "EJBindingWizCanvasMessenger.h"; path = "jp.wizcorp.phonegap.plugin.wizCanvasPlugin/Ejecta/EJUtils/EJBindingWizCanvasMessenger.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		3A0B9EC3489F445885C7BF19 /* EJBindingIAPManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "EJBindingIAPManager.h"; path = "jp.wizcorp.phonegap.plugin.wizCanvasPlugin/Ejecta/EJUtils/IAP/EJBindingIAPManager.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		E555D5FE3FBE4126AE2D2311 /* EJBindingIAPProduct.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "EJBindingIAPProduct.h"; path = "jp.wizcorp.phonegap.plugin.wizCanvasPlugin/Ejecta/EJUtils/IAP/EJBindingIAPProduct.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		B6F1190A920C4C6D83F0D627 /* EJBindingIAPTransaction.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "EJBindingIAPTransaction.h"; path = "jp.wizcorp.phonegap.plugin.wizCanvasPlugin/Ejecta/EJUtils/IAP/EJBindingIAPTransaction.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		D7563B3A9B05459A909DA14C /* SRWebSocket.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "SRWebSocket.h"; path = "jp.wizcorp.phonegap.plugin.wizCanvasPlugin/lib/SocketRocket/SRWebSocket.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		FC46D3A8FE744A0A98761F13 /* base64.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "base64.h"; path = "jp.wizcorp.phonegap.plugin.wizCanvasPlugin/lib/base64.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		60CE2981C3F244B3B3726931 /* AlphaTexture.fsh */ = {isa = PBXFileReference; lastKnownFileType = unknown; name = "AlphaTexture.fsh"; path = "AlphaTexture.fsh"; sourceTree = "<group>"; fileEncoding = 4; };
+		45DDA466FD9C49FB898EB589 /* Flat.fsh */ = {isa = PBXFileReference; lastKnownFileType = unknown; name = "Flat.fsh"; path = "Flat.fsh"; sourceTree = "<group>"; fileEncoding = 4; };
+		0E666C6C1F244D78B9BE13D2 /* Pattern.fsh */ = {isa = PBXFileReference; lastKnownFileType = unknown; name = "Pattern.fsh"; path = "Pattern.fsh"; sourceTree = "<group>"; fileEncoding = 4; };
+		9809A30C33174588BACD1485 /* RadialGradient.fsh */ = {isa = PBXFileReference; lastKnownFileType = unknown; name = "RadialGradient.fsh"; path = "RadialGradient.fsh"; sourceTree = "<group>"; fileEncoding = 4; };
+		F0B86C78C7B14F16AD820EBA /* Texture.fsh */ = {isa = PBXFileReference; lastKnownFileType = unknown; name = "Texture.fsh"; path = "Texture.fsh"; sourceTree = "<group>"; fileEncoding = 4; };
+		643507F715344BDF95008AEC /* Vertex.vsh */ = {isa = PBXFileReference; lastKnownFileType = unknown; name = "Vertex.vsh"; path = "Vertex.vsh"; sourceTree = "<group>"; fileEncoding = 4; };
+		648FF5A70E96439595E00FA9 /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "JavaScriptCore.framework"; path = "iOSRTCApp/Plugins/jp.wizcorp.phonegap.plugin.wizCanvasPlugin/JavaScriptCore.framework"; sourceTree = "<group>"; };
+		CFF09EA4834D4152A1C6E473 /* OpenAL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "OpenAL.framework"; path = "System/Library/Frameworks/OpenAL.framework"; sourceTree = SDKROOT; fileEncoding = 4; };
+		667B4BF1BF724D0C844E018B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "UIKit.framework"; path = "System/Library/Frameworks/UIKit.framework"; sourceTree = SDKROOT; fileEncoding = 4; };
+		D845D5C104CC494D963C37BA /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "MediaPlayer.framework"; path = "System/Library/Frameworks/MediaPlayer.framework"; sourceTree = SDKROOT; fileEncoding = 4; };
+		822F370ECF96453B91DA8DA0 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "CoreMotion.framework"; path = "System/Library/Frameworks/CoreMotion.framework"; sourceTree = SDKROOT; fileEncoding = 4; };
+		C72978204D18420FBDE3AA7F /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "iAd.framework"; path = "System/Library/Frameworks/iAd.framework"; sourceTree = SDKROOT; fileEncoding = 4; };
+		F27DC4FE235943C2BE494A5D /* GameKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "GameKit.framework"; path = "System/Library/Frameworks/GameKit.framework"; sourceTree = SDKROOT; fileEncoding = 4; };
+		8B97AD7D8406462D9F21E881 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "CoreText.framework"; path = "System/Library/Frameworks/CoreText.framework"; sourceTree = SDKROOT; fileEncoding = 4; };
+		41BA610CFE254FF4BA550D47 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "StoreKit.framework"; path = "System/Library/Frameworks/StoreKit.framework"; sourceTree = SDKROOT; fileEncoding = 4; };
+		AEDE76A7EA68435FB7BE9B09 /* libicucore.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libicucore.dylib"; path = "usr/lib/libicucore.dylib"; sourceTree = SDKROOT; fileEncoding = 4; };
+		1C420E0D3E53487BB3D30D06 /* WizDebugLog.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "WizDebugLog.h"; path = "jp.wizcorp.phonegap.plugin.wizViewManagerPlugin/WizDebugLog.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		48614891C7C143A6A8937005 /* CDVLocation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "CDVLocation.m"; path = "org.apache.cordova.geolocation/CDVLocation.m"; sourceTree = "<group>"; fileEncoding = 4; };
+		6C36BF80792644AAB804CFBB /* CDVLocation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "CDVLocation.h"; path = "org.apache.cordova.geolocation/CDVLocation.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		FD0D3D9B40394DC6BF6F4DE8 /* CDVBackgroundFetch.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "CDVBackgroundFetch.m"; path = "org.transistorsoft.cordova.plugin.background.fetch/CDVBackgroundFetch.m"; sourceTree = "<group>"; fileEncoding = 4; };
+		EC47F2E2155240BEB5D54B94 /* CDVBackgroundFetch.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "CDVBackgroundFetch.h"; path = "org.transistorsoft.cordova.plugin.background.fetch/CDVBackgroundFetch.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		1C0F33DC9F3C40B4B36FFDC9 /* CameraPreview.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "CameraPreview.m"; path = "com.mbppower.camerapreview/CameraPreview.m"; sourceTree = "<group>"; fileEncoding = 4; };
+		968B171495F34218AE185127 /* CameraSessionManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "CameraSessionManager.m"; path = "com.mbppower.camerapreview/CameraSessionManager.m"; sourceTree = "<group>"; fileEncoding = 4; };
+		DDEBE7814ADB4854BAE20BE2 /* CameraRenderController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "CameraRenderController.m"; path = "com.mbppower.camerapreview/CameraRenderController.m"; sourceTree = "<group>"; fileEncoding = 4; };
+		0A3101C044694831BDBC2441 /* CameraPreview.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "CameraPreview.h"; path = "com.mbppower.camerapreview/CameraPreview.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		A2D9F6BB87374D81B1876CB6 /* CameraSessionManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "CameraSessionManager.h"; path = "com.mbppower.camerapreview/CameraSessionManager.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		658B7FBC1AB74AAEA93F6DD1 /* CameraRenderController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "CameraRenderController.h"; path = "com.mbppower.camerapreview/CameraRenderController.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		EEC0FD7B551749B585F24641 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "ImageIO.framework"; path = "System/Library/Frameworks/ImageIO.framework"; sourceTree = SDKROOT; fileEncoding = 4; };
+		E12D0C34F44D499495403F6F /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "CoreImage.framework"; path = "System/Library/Frameworks/CoreImage.framework"; sourceTree = SDKROOT; fileEncoding = 4; };
+		9EFCC729FDF541F28788D0F7 /* CDVSplashScreen.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "CDVSplashScreen.m"; path = "cordova-plugin-splashscreen/CDVSplashScreen.m"; sourceTree = "<group>"; fileEncoding = 4; };
+		662570F3BC4B41F5B268C1E5 /* CDVViewController+SplashScreen.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "CDVViewController+SplashScreen.m"; path = "cordova-plugin-splashscreen/CDVViewController+SplashScreen.m"; sourceTree = "<group>"; fileEncoding = 4; };
+		24FF3E30CB9249D4A8820270 /* CDVSplashScreen.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "CDVSplashScreen.h"; path = "cordova-plugin-splashscreen/CDVSplashScreen.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		B0F0F4872FA64138BC3094CB /* CDVViewController+SplashScreen.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "CDVViewController+SplashScreen.h"; path = "cordova-plugin-splashscreen/CDVViewController+SplashScreen.h"; sourceTree = "<group>"; fileEncoding = 4; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B1594DD16A7569C00FEF299 /* AssetsLibrary.framework in Frameworks */,
+				301BF552109A68D80062928A /* libCordova.a in Frameworks */,
+				288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */,
+				305D5FD1115AB8F900A74A75 /* MobileCoreServices.framework in Frameworks */,
+				F4C234119EC1497D92C5B75D /* CFNetwork.framework in Frameworks */,
+				0892C1D3119746E2ACBCE599 /* Foundation.framework in Frameworks */,
+				9C48741F34434D34925E84C8 /* Security.framework in Frameworks */,
+				E57C8B3B09064BF59DC153DB /* CoreVideo.framework in Frameworks */,
+				EC2C8FF234EC4610B8AD6F56 /* QuartzCore.framework in Frameworks */,
+				0F3F1A8AE67942248D9A9162 /* GCDWebServer.framework in Frameworks */,
+				B17D7E4BC11C4B4FA0435D91 /* libz.dylib in Frameworks */,
+				75307A7325F84DD583541BCB /* SystemConfiguration.framework in Frameworks */,
+				0FF9925B401845B68094C0A4 /* WebKit.framework in Frameworks */,
+				F14A83E7E9A948D4B5B34E04 /* libwebrtc.a in Frameworks */,
+				B266B09E078E403DA72D4DEF /* libc++.dylib in Frameworks */,
+				19A4E8912AD04E38A8325580 /* libsqlite3.0.dylib in Frameworks */,
+				40DF678766E5431ABE9C6C87 /* OpenGLES.framework in Frameworks */,
+				BCAA802AE7E848ECA3D795E8 /* CoreMedia.framework in Frameworks */,
+				F56837B88172464DA0D1A1B8 /* CoreAudio.framework in Frameworks */,
+				C2CEAD7DDD7D4441B9BAAB11 /* AVFoundation.framework in Frameworks */,
+				DDC37B3C68B440B4A3E317B5 /* CoreLocation.framework in Frameworks */,
+				31DB29861EF44586AAAC886B /* AudioToolbox.framework in Frameworks */,
+				EFE56C562ED341008E4A1539 /* GLKit.framework in Frameworks */,
+				5FB67468001D489489D2A8DB /* JavaScriptCore.framework in Frameworks */,
+				28DF436C311043FEA05F0913 /* OpenAL.framework in Frameworks */,
+				143AFEB236A341C59B23B69F /* UIKit.framework in Frameworks */,
+				92DA769F6B4A491C9B64587B /* MediaPlayer.framework in Frameworks */,
+				3FDC779967E1432DAB83A09D /* CoreMotion.framework in Frameworks */,
+				DE73D418E1D448EBACCFC662 /* iAd.framework in Frameworks */,
+				E8886CE6B3274B42BA3B2BBB /* GameKit.framework in Frameworks */,
+				749660912E0E41D3B4273E4C /* CoreText.framework in Frameworks */,
+				AD78E12E94CC43FCB892FBF7 /* StoreKit.framework in Frameworks */,
+				89946DC72D05445EA76E5891 /* libicucore.dylib in Frameworks */,
+				27F86BEBCE4748B38D318002 /* ImageIO.framework in Frameworks */,
+				CE5A58FE4808446FAE83F4F5 /* CoreImage.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				302D95EE14D2391D003F00A1 /* MainViewController.h */,
+				302D95EF14D2391D003F00A1 /* MainViewController.m */,
+				302D95F014D2391D003F00A1 /* MainViewController.xib */,
+				1D3623240D0F684500981E51 /* AppDelegate.h */,
+				1D3623250D0F684500981E51 /* AppDelegate.m */,
+			);
+			name = Classes;
+			path = "iOSRTCApp/Classes";
+			sourceTree = SOURCE_ROOT;
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* iOSRTCApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				EB87FDF41871DAF40020F90C /* config.xml */,
+				EB87FDF31871DA8E0020F90C /* www */,
+				EB87FDF21871DA7A0020F90C /* merges */,
+				EB87FDF11871DA420020F90C /* Staging */,
+				301BF52D109A57CC0062928A /* CordovaLib.xcodeproj */,
+				080E96DDFE201D6D7F000001 /* Classes */,
+				307C750510C5A3420062BCA9 /* Plugins */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* iOSRTCApp-Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			path = "iOSRTCApp";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				308D052D1370CCF300D202BF /* icons */,
+				308D05311370CCF300D202BF /* splash */,
+				8D1107310486CEB800E47090 /* iOSRTCApp-Info.plist */,
+				60CE2981C3F244B3B3726931 /* AlphaTexture.fsh */,
+				45DDA466FD9C49FB898EB589 /* Flat.fsh */,
+				0E666C6C1F244D78B9BE13D2 /* Pattern.fsh */,
+				9809A30C33174588BACD1485 /* RadialGradient.fsh */,
+				F0B86C78C7B14F16AD820EBA /* Texture.fsh */,
+				643507F715344BDF95008AEC /* Vertex.vsh */,
+			);
+			name = Resources;
+			path = "iOSRTCApp/Resources";
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5B1594DC16A7569C00FEF299 /* AssetsLibrary.framework */,
+				288765FC0DF74451002DB57D /* CoreGraphics.framework */,
+				305D5FD0115AB8F900A74A75 /* MobileCoreServices.framework */,
+				88A0BC3081F94806BF18ABD1 /* CFNetwork.framework */,
+				AEBE8A527CD14FD1B4E20512 /* Foundation.framework */,
+				7366DD8013C24CBA8EA2B58D /* Security.framework */,
+				0EC19A8F137F4C8BA5ABE97B /* CoreVideo.framework */,
+				5935174053F44229A924110A /* QuartzCore.framework */,
+				9EE62E35103E459B92FBB065 /* GCDWebServer.framework */,
+				2AE125DEC57C43ACA9CA7E04 /* libz.dylib */,
+				0F2D7C0ADA104B919214EA11 /* SystemConfiguration.framework */,
+				0B7F42B364AE4F2ABC512DF9 /* WebKit.framework */,
+				AFD3F86B9B9D49CD92CE12A4 /* libwebrtc.a */,
+				F015BA3AA1464D189F38267D /* libc++.dylib */,
+				BBE7CF924D514456A54F9A5C /* libsqlite3.0.dylib */,
+				EA045C05D4B440DEAD5D2E56 /* OpenGLES.framework */,
+				4DFF12D854E14A4CB051AE73 /* CoreMedia.framework */,
+				B47893503EE94B93B0D0EF5B /* CoreAudio.framework */,
+				2A00DE78C5C4455FB1641D4A /* AVFoundation.framework */,
+				13FB2CF0F6074F1EAC7CD56A /* CoreLocation.framework */,
+				8EBFE5D1BF9D4871B80FD76F /* AudioToolbox.framework */,
+				7632A71E537546E285F233B8 /* GLKit.framework */,
+				648FF5A70E96439595E00FA9 /* JavaScriptCore.framework */,
+				CFF09EA4834D4152A1C6E473 /* OpenAL.framework */,
+				667B4BF1BF724D0C844E018B /* UIKit.framework */,
+				D845D5C104CC494D963C37BA /* MediaPlayer.framework */,
+				822F370ECF96453B91DA8DA0 /* CoreMotion.framework */,
+				C72978204D18420FBDE3AA7F /* iAd.framework */,
+				F27DC4FE235943C2BE494A5D /* GameKit.framework */,
+				8B97AD7D8406462D9F21E881 /* CoreText.framework */,
+				41BA610CFE254FF4BA550D47 /* StoreKit.framework */,
+				AEDE76A7EA68435FB7BE9B09 /* libicucore.dylib */,
+				EEC0FD7B551749B585F24641 /* ImageIO.framework */,
+				E12D0C34F44D499495403F6F /* CoreImage.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		301BF52E109A57CC0062928A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				301BF535109A57CC0062928A /* libCordova.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		307C750510C5A3420062BCA9 /* Plugins */ = {
+			isa = PBXGroup;
+			children = (
+				A0D401E7550A478DBA8122A1 /* CameraServer.m */,
+				771D6EAB5A6A4C99BA60D256 /* HTTPServer.m */,
+				845FD8EE7BDE433BA11CDD35 /* WebSocket.m */,
+				B0E46140C0EC439ABFD96678 /* HTTPMessage.m */,
+				C4E9A0E25F494C928926C97C /* HTTPAuthenticationRequest.m */,
+				3CD72484684344F08D5A2661 /* HTTPConnection.m */,
+				EDF8A1FC2BF74D56B17F752B /* HTTPAsyncFileResponse.m */,
+				260BBFDE03C844B4BF558A99 /* HTTPErrorResponse.m */,
+				B19375D64A6347B8BD4758ED /* HTTPDynamicFileResponse.m */,
+				0C640082D92240818BE393A0 /* HTTPRedirectResponse.m */,
+				833AD9B3D7FC4877A7AA2669 /* HTTPFileResponse.m */,
+				B238AF8DEE874BCBA0BF4C2F /* HTTPDataResponse.m */,
+				8EA723F8F0DE4D4993813CCB /* MultipartFormDataParser.m */,
+				73228100ACBD415487199293 /* MultipartMessageHeader.m */,
+				11CA3E64EE4D400EAFA83185 /* MultipartMessageHeaderField.m */,
+				50AC57C65F9F496B80AD7765 /* DDData.m */,
+				5B5F1A3709924149B526D43A /* DDNumber.m */,
+				787E5883D21B446A8A07CFEA /* DDRange.m */,
+				E6E150DECFAE4E72A51EDD34 /* GCDAsyncSocket.m */,
+				E10C742C7FCD4FBF981E9CAE /* DDAbstractDatabaseLogger.h */,
+				1EB2F15B0A2E4DB3B08E307B /* DDAbstractDatabaseLogger.m */,
+				322CEC7D83D3455D8EDD9C53 /* DDFileLogger.m */,
+				CEEBE759AF79452CB817BE6E /* DDASLLogger.m */,
+				60F6527E9459450C9FDE93D9 /* DDTTYLogger.m */,
+				841D96E5E6AB497D9EFBF48F /* DDLog.m */,
+				4CCCA736CAE54B3DABDDC7A1 /* ContextFilterLogFormatter.m */,
+				C428DD1F7B6B431F9F21E090 /* DispatchQueueLogFormatter.m */,
+				BB3B05495A4945CE952C337E /* CameraManager.m */,
+				1E681629BA6A42AFBCA3D2D3 /* HTTPVideoResponse.m */,
+				BCC1BC5714D74408AFC25D18 /* HTTPJsonResponse.m */,
+				C9022B3B5AC141109F5BACD5 /* HTTPLogging.h */,
+				CF9479864EFA4B24A411C489 /* HTTPServer.h */,
+				8838A38697944C7A93BAFF65 /* WebSocket.h */,
+				7F0EFC73C68A46708EB170DE /* HTTPMessage.h */,
+				6D07A5C29D924D12BB281394 /* HTTPAuthenticationRequest.h */,
+				4EB3780234904BA2B1A7E160 /* HTTPConnection.h */,
+				A6EF6B258B644D02BE542976 /* HTTPResponse.h */,
+				808580E09F994BE0AC44AA64 /* HTTPAsyncFileResponse.h */,
+				C8E1EAF34AA74A96B1D27D2B /* HTTPErrorResponse.h */,
+				C6D043F27680456A9E27CE2A /* HTTPDynamicFileResponse.h */,
+				413915F59EED4191BB199431 /* HTTPRedirectResponse.h */,
+				5236A2D51E8844788A95F738 /* HTTPFileResponse.h */,
+				62C91AEDB37E41499EB7E775 /* HTTPDataResponse.h */,
+				0547C9CB39F54C68BBC24CBF /* MultipartFormDataParser.h */,
+				E4F654A873F6482D840B3709 /* MultipartMessageHeader.h */,
+				86E1E6C04D134A048DE8950B /* MultipartMessageHeaderField.h */,
+				26147665034E49EF9DC9CC4F /* DDData.h */,
+				FFFDF6578AF9487B953B8C5D /* DDNumber.h */,
+				7E93035BFE8F4EF5A383474C /* DDRange.h */,
+				D458C8FAD82E45BEB46752F2 /* GCDAsyncSocket.h */,
+				6027E4DA8D76444DA7AECAC1 /* DDFileLogger.h */,
+				BA5F08BC9A25487FBA5525AB /* DDASLLogger.h */,
+				329C9ACBBDFA4307840EFA28 /* DDTTYLogger.h */,
+				E70ABE8FEA284D86A43C004B /* DDLog.h */,
+				F4D51351A3774076838D63B3 /* ContextFilterLogFormatter.h */,
+				D2F2445E09A34222B366B42A /* DispatchQueueLogFormatter.h */,
+				781AFB9D49044169AAAD3C23 /* CameraManager.h */,
+				6E013A6BCC774C0496133320 /* HTTPVideoResponse.h */,
+				6E9A4E00987F461D9E95FADE /* HTTPJsonResponse.h */,
+				6B6362EA7CD241CDA86C9FC1 /* MyMainViewController.m */,
+				C75039E6B75C413FA8170A49 /* AppDelegate+WKWebViewPolyfill.h */,
+				BC531ADF760A45D78E45A308 /* AppDelegate+WKWebViewPolyfill.m */,
+				14A6F2442B764C1696B21F5A /* ReroutingUIWebView.m */,
+				DC68B872496543989A2F7545 /* CDVWebViewOperationsDelegate.m */,
+				183C0248C2CE43A7AC042B14 /* CDVWebViewUIDelegate.m */,
+				5B0570772B91465486939ED6 /* MyMainViewController.h */,
+				81F9DBAE322B4462837800C3 /* ReroutingUIWebView.h */,
+				0E7596F9835D4BDE939565C8 /* CDVWebViewOperationsDelegate.h */,
+				F31A444D153E4EF48F53E1EE /* CDVWebViewUIDelegate.h */,
+				E850A06D3FCC468E97F1F478 /* AppPreferences.m */,
+				1935AA918CC34FA88F7B12B8 /* AppPreferences.h */,
+				5DE98CBAF8084273993E1843 /* CDVLogger.m */,
+				67BFD65B341E48E38CCB4F68 /* CDVLogger.h */,
+				63F9A713FC9B45F081030325 /* CDVDevice.m */,
+				0B1275F6293543EBAE9F55B8 /* CDVDevice.h */,
+				041CA2D973C8496388CE6CA7 /* CDVConnection.m */,
+				A951F29793FA41A9A4429043 /* CDVReachability.m */,
+				1D005A9E64BE42F3A9ADC20A /* CDVConnection.h */,
+				7FF02D85CF834B1C801B9251 /* CDVReachability.h */,
+				DAFC4A588D4847B88BB24F3D /* WebRTCPlugin.m */,
+				005C5411BD674929AC2D9868 /* WebRTCPlugin.h */,
+				996278EBF2CE474D85546045 /* RTCAudioSource.h */,
+				040F91D51ACD41C1A42760D8 /* RTCAudioTrack.h */,
+				F9BC21DA7D9842F6B8539715 /* RTCDataChannel.h */,
+				B0E820A6DA4E41C48F1056A9 /* RTCEAGLVideoView.h */,
+				C98FC7658EC94CB3AD13C655 /* RTCI420Frame.h */,
+				93BF066FFFB24E12B1F25CC4 /* RTCICECandidate.h */,
+				13D1E149958E4929BBE373A8 /* RTCICEServer.h */,
+				1DE04AA46F8B4E738ADA28A8 /* RTCMediaConstraints.h */,
+				FDB180131EDA44F981AB6B25 /* RTCMediaSource.h */,
+				DA286B9B3F294D299754113B /* RTCMediaStream.h */,
+				72BB38DF7EAE4929B1AB2D62 /* RTCMediaStreamTrack.h */,
+				9A08A6F6CCA644C2ACECFE4C /* RTCNSGLVideoView.h */,
+				C0BAF04286104BC8B23A10E3 /* RTCOpenGLVideoRenderer.h */,
+				C9264BD07C72437A8A1B7A51 /* RTCPair.h */,
+				A2010BC4E4D3417C9747E84C /* RTCPeerConnection.h */,
+				5417A16D23F549EC8A35B0AD /* RTCPeerConnectionDelegate.h */,
+				9CC8B02588E54AFAB9D36158 /* RTCPeerConnectionFactory.h */,
+				2A5B557449B3455F83177D91 /* RTCSessionDescription.h */,
+				EB3283CE96114A93B1946552 /* RTCSessionDescriptionDelegate.h */,
+				344683D368B64BC0B4D594F3 /* RTCStatsDelegate.h */,
+				943CDF152F774890A034DB1F /* RTCStatsReport.h */,
+				37D05057DAA84F36B941135A /* RTCTypes.h */,
+				5A10C66E2D50464EA7588764 /* RTCVideoCapturer.h */,
+				55C3840585C64C98872D2DE1 /* RTCVideoRenderer.h */,
+				763B66CA60F14BBD987169F0 /* RTCVideoSource.h */,
+				DCC9F504ED8847A0B829FC41 /* RTCVideoTrack.h */,
+				ED00355EE5994762960E2F43 /* WizCanvasPlugin.m */,
+				2071D21D2018415CBF95274A /* WizCanvasView.m */,
+				0F46ACAE8A5F47668B90EEF0 /* NSString+URLEncoding.m */,
+				DC95F9CA880B40F68D3A5DD1 /* EJAudioSourceAVAudio.m */,
+				28EE6584EE2E43779567177D /* EJAudioSourceOpenAL.m */,
+				C2CF2E92B0764682AF833ACC /* EJBindingAudio.m */,
+				E5FBDE9D056E45DFAE2A0807 /* EJOpenALBuffer.m */,
+				48E5DDAF0A1C45F6AABC1243 /* EJSharedOpenALManager.m */,
+				9C80F17CF9C445CFAD0A9530 /* EJBindingBase.m */,
+				743205E104A64D7EB2A39A2C /* EJBindingEjectaCore.m */,
+				A63C99DD2EA646F0872B9B54 /* EJBindingEventedBase.m */,
+				669EB4F61EC34654A9914AD1 /* EJBindingVideo.m */,
+				51E464869EFA46F9B5A61CEE /* EJBindingCanvasContext2D.m */,
+				44BB1652F84640D4A4C8DACA /* EJBindingCanvasGradient.m */,
+				285B951B90EA40778567BA26 /* EJBindingCanvasPattern.m */,
+				64A1A7D0F5ED48EEABD8FE2D /* EJBindingImageData.m */,
+				6BCD5E08B2634F819E54306A /* EJBindingTextMetrics.m */,
+				ED742AAA5D4C41D682ECFFC5 /* EJCanvasContext2D.m */,
+				F52E3C9C7C6F48A280DDCBCA /* EJCanvasContext2DScreen.m */,
+				19922349D4DD495CBF040FC5 /* EJCanvasContext2DTexture.m */,
+				2B6ECC9625E3409D8C5E45C8 /* EJCanvasGradient.m */,
+				1449FED337EB4BB8949C397F /* EJCanvasPattern.m */,
+				B20B68ABCA804CFEBC180ADB /* EJConvertColorRGBA.m */,
+				D3C55B7857274352928ADE88 /* EJFont.mm */,
+				FDF38815B0914A629945613B /* EJFontCache.m */,
+				A978760B8C5E468B9DBD98B8 /* EJGLProgram2D.m */,
+				DA90F8474DFF4B54AFB37E80 /* EJGLProgram2DRadialGradient.m */,
+				44F7A709B7D44A70995555BD /* EJImageData.m */,
+				3884A10230C44D89848D149A /* EJPath.mm */,
+				8E238B30DAEF4C79A47C8CDF /* EAGLView.m */,
+				03C5231385294CE985EC176D /* EJBindingCanvas.m */,
+				9FE65714009A4CE08E34DCAE /* EJBindingCanvasStyle.m */,
+				4253AF6D017848FE9994C5AD /* EJBindingImage.m */,
+				984D033E08934D18A55CA430 /* EJCanvasContext.m */,
+				5F60EB53B57F4A62B50B4C8D /* EJSharedTextureCache.m */,
+				9B12668236DB45A38DB18B5F /* EJTexture.m */,
+				6F44E71F3ADB40E1B53631D9 /* EJTextureStorage.m */,
+				EAFA3B6EFFD948AEB05009DA /* EJBindingCanvasContextWebGL.m */,
+				05D11D1EF58C43D3A949B6D4 /* EJCanvasContextWebGLScreen.m */,
+				3B238D1BCC374E0E9E308096 /* EJBindingWebGLExtensions.m */,
+				10D52C2E097D4010B3A7328A /* EJBindingWebGLObjects.m */,
+				BFB54A864BEB4C5AB943A7A1 /* EJCanvasContextWebGL.m */,
+				0B9CDF8513FD4FAB9434B73B /* EJConvertWebGL.m */,
+				CD78BE1A4A5F4FD39A8BB5D0 /* EJCanvasContextWebGLTexture.m */,
+				4DF058BB51DD4DB58B009C1D /* EJClassLoader.m */,
+				038E3393A0F84711B8D30148 /* EJConvert.m */,
+				9FBBDFEA4AE34EA2881AE669 /* EJNonRetainingProxy.m */,
+				3F09DA29EDB248FEA4A6AC12 /* EJSharedOpenGLContext.m */,
+				2A645E1011454881A74C690F /* EJTimer.m */,
+				84D05B8A6601417791A94375 /* EJBindingAdBanner.m */,
+				78F63916063348A5B8C88788 /* EJBindingDeviceMotion.m */,
+				D14EB40F97794FAF9100D175 /* EJBindingGeolocation.m */,
+				A00C906A056B495DB07663AE /* EJBindingGameCenter.m */,
+				C20DAF1A3ED047F8A55A010F /* EJBindingHttpRequest.m */,
+				F2F39DF86E264D178235D37F /* EJBindingImagePicker.m */,
+				B32A951F714544F9B4220FDF /* EJBindingKeyInput.m */,
+				17B28A7FE2204DB485396FF0 /* EJBindingLocalStorage.m */,
+				856FA0DC94B64A70BDA2A0C7 /* EJBindingTouchInput.m */,
+				274B0DF6F07A47DCB5E1B954 /* EJBindingWebSocket.m */,
+				49A82B0AA0034CA0B27046D4 /* EJBindingWindowEvents.m */,
+				A334F3107A934A2CA34BFB0F /* EJBindingWizCanvasMessenger.m */,
+				02D381ADD1EC4A9189F464F2 /* EJBindingIAPManager.m */,
+				32B480AFBA9B4A72A0A3184C /* EJBindingIAPProduct.m */,
+				F63A3FC54FA34461AD6F0D80 /* EJBindingIAPTransaction.m */,
+				26749DB58B19409FA756B728 /* SocketRocket-Prefix.pch */,
+				940673CDEC3D4A298B1A58BA /* SRWebSocket.m */,
+				1ACFE3634731480CA250E297 /* base64.c */,
+				02A8BBB7F7FF42E9A9C90B73 /* WizCanvasPlugin.h */,
+				55E10A95EDDF49598DD7FDD7 /* WizCanvasView.h */,
+				EAC493E7022E49E28D354C5C /* NSString+URLEncoding.h */,
+				BFAF7170473C43D0A4BB355D /* EJAudioSource.h */,
+				FCDA6E49D78E4936864270FA /* EJAudioSourceAVAudio.h */,
+				E751E3E3F0F149A99B3E7ECC /* EJAudioSourceOpenAL.h */,
+				BDD9B29962744522B8A0DF3B /* EJBindingAudio.h */,
+				C02C5D0AF94A4D359CD2D019 /* EJOpenALBuffer.h */,
+				B9EC4841E9D4436DAB523604 /* EJSharedOpenALManager.h */,
+				399056986FCF4AE790C608CB /* EJBindingBase.h */,
+				9E7E8662A26D4F1086168123 /* EJBindingEjectaCore.h */,
+				F5FD10A0A7B84EDDB154A25A /* EJBindingEventedBase.h */,
+				CDE5D09B217B4A6DB0BB9C64 /* EJBindingVideo.h */,
+				0EF244744F0A497DB299DAF6 /* EJBindingCanvasContext2D.h */,
+				11C6077B72A54321BB4DE9D8 /* EJBindingCanvasGradient.h */,
+				0231B34321204F4BB51EFB3B /* EJBindingCanvasPattern.h */,
+				58E2BC10BEE542E0A2AE0BEB /* EJBindingImageData.h */,
+				027716FFA4F64DDDA38AE39A /* EJBindingTextMetrics.h */,
+				D4CD694164774CEBA91EAAB1 /* EJCanvas2DTypes.h */,
+				D01BCAD419F248C7BD7EC5B8 /* EJCanvasContext2D.h */,
+				4BE7222C940F41438C3D950D /* EJCanvasContext2DScreen.h */,
+				6A49B324E4DA4C5DB9ED4C16 /* EJCanvasContext2DTexture.h */,
+				FEE26E0AE869452682DB4B42 /* EJCanvasGradient.h */,
+				A2E0B3B8BE564F779D56B3EE /* EJCanvasPattern.h */,
+				55EDAF91E0F3438CA2BB07F7 /* EJConvertColorRGBA.h */,
+				33358E410AF345DF84384D1F /* EJFont.h */,
+				328877761CCB4096861E0CA3 /* EJFontCache.h */,
+				A48054D3990C44B188E2491B /* EJGLProgram2D.h */,
+				3616A65B3A7E445B8C0D4CC7 /* EJGLProgram2DRadialGradient.h */,
+				83570C6F03AB44E784E09DDA /* EJImageData.h */,
+				30683E64C3EA498FA81FAA10 /* EJPath.h */,
+				26EB90E9B98340CC8A9BBF46 /* EAGLView.h */,
+				AC553A1F08C1447C9C8F576A /* EJBindingCanvas.h */,
+				CCCE576D5EE64D9A88A5DD5E /* EJBindingCanvasStyle.h */,
+				422C5DFC79E3416198079DC8 /* EJBindingImage.h */,
+				E816EF3DC95944DB95B8B20C /* EJCanvasContext.h */,
+				153448D0E59E451C9AA5FFA7 /* EJDrawable.h */,
+				E19CDDB6A0444578A5284012 /* EJPresentable.h */,
+				1D59ED15D19744D1B298DDC9 /* EJSharedTextureCache.h */,
+				1872F2E60BA94F98B769000F /* EJTexture.h */,
+				DBDD5B560B1E40C5B7D06D79 /* EJTextureStorage.h */,
+				0CAE34537C6C44CC8AC4F552 /* EJBindingCanvasContextWebGL.h */,
+				7F6F6ABEB65E4AF1A4E3DC46 /* EJCanvasContextWebGLScreen.h */,
+				37B0EF40E460472B8DCCC27D /* EJBindingWebGLExtensions.h */,
+				203DD002A9B3499F80E77A56 /* EJBindingWebGLObjects.h */,
+				1681908BE6E84B97AAF6EDF8 /* EJCanvasContextWebGL.h */,
+				D481CBDD56EE47AB8F96074C /* EJConvertWebGL.h */,
+				25306C4A0A17459D8B176053 /* EJCanvasContextWebGLTexture.h */,
+				FEDD3D163E4A47A48BEE5428 /* EJClassLoader.h */,
+				65E8909D53E34DA39E357A39 /* EJConvert.h */,
+				BBE0AB3002314F40B2FEBBEF /* EJNonRetainingProxy.h */,
+				CCD14F8515574D29AC717AEC /* EJSharedOpenGLContext.h */,
+				BE77BC408C99427EA7D29278 /* EJTimer.h */,
+				E352C328317547BC81C39CC9 /* EJBindingAdBanner.h */,
+				29774A9505224CB4A4C8E682 /* EJBindingDeviceMotion.h */,
+				28E4AAA89F4A47A88BF25323 /* EJBindingGeolocation.h */,
+				0E7B36B9D256461FB8570B88 /* EJBindingGameCenter.h */,
+				4903B5EED03D4385AA86E5D0 /* EJBindingHttpRequest.h */,
+				34570AF92D234DD685CDC9C9 /* EJBindingImagePicker.h */,
+				FB4C006039D0407897A7824F /* EJBindingKeyInput.h */,
+				263CA2B9E4A642FBA9389ECA /* EJBindingLocalStorage.h */,
+				244F1389FAAB44999C287390 /* EJBindingTouchInput.h */,
+				0B15049F21A748BE8525DE94 /* EJBindingWebSocket.h */,
+				9447265B0E9741D09661C0BB /* EJBindingWindowEvents.h */,
+				B028D89FFD28459C859B7AF2 /* EJBindingWizCanvasMessenger.h */,
+				3A0B9EC3489F445885C7BF19 /* EJBindingIAPManager.h */,
+				E555D5FE3FBE4126AE2D2311 /* EJBindingIAPProduct.h */,
+				B6F1190A920C4C6D83F0D627 /* EJBindingIAPTransaction.h */,
+				D7563B3A9B05459A909DA14C /* SRWebSocket.h */,
+				FC46D3A8FE744A0A98761F13 /* base64.h */,
+				1C420E0D3E53487BB3D30D06 /* WizDebugLog.h */,
+				48614891C7C143A6A8937005 /* CDVLocation.m */,
+				6C36BF80792644AAB804CFBB /* CDVLocation.h */,
+				FD0D3D9B40394DC6BF6F4DE8 /* CDVBackgroundFetch.m */,
+				EC47F2E2155240BEB5D54B94 /* CDVBackgroundFetch.h */,
+				1C0F33DC9F3C40B4B36FFDC9 /* CameraPreview.m */,
+				968B171495F34218AE185127 /* CameraSessionManager.m */,
+				DDEBE7814ADB4854BAE20BE2 /* CameraRenderController.m */,
+				0A3101C044694831BDBC2441 /* CameraPreview.h */,
+				A2D9F6BB87374D81B1876CB6 /* CameraSessionManager.h */,
+				658B7FBC1AB74AAEA93F6DD1 /* CameraRenderController.h */,
+				9EFCC729FDF541F28788D0F7 /* CDVSplashScreen.m */,
+				662570F3BC4B41F5B268C1E5 /* CDVViewController+SplashScreen.m */,
+				24FF3E30CB9249D4A8820270 /* CDVSplashScreen.h */,
+				B0F0F4872FA64138BC3094CB /* CDVViewController+SplashScreen.h */,
+			);
+			name = Plugins;
+			path = "iOSRTCApp/Plugins";
+			sourceTree = SOURCE_ROOT;
+		};
+		308D052D1370CCF300D202BF /* icons */ = {
+			isa = PBXGroup;
+			children = (
+				30C1856519D5FC0A00212699 /* icon-60@3x.png */,
+				7E7966D41810823500FA85AD /* icon-40.png */,
+				7E7966D51810823500FA85AD /* icon-40@2x.png */,
+				7E7966D61810823500FA85AD /* icon-50.png */,
+				7E7966D71810823500FA85AD /* icon-50@2x.png */,
+				7E7966D81810823500FA85AD /* icon-60.png */,
+				7E7966D91810823500FA85AD /* icon-60@2x.png */,
+				7E7966DA1810823500FA85AD /* icon-76.png */,
+				7E7966DB1810823500FA85AD /* icon-76@2x.png */,
+				7E7966DC1810823500FA85AD /* icon-small.png */,
+				7E7966DD1810823500FA85AD /* icon-small@2x.png */,
+				30FC414816E50CA1004E6F35 /* icon-72@2x.png */,
+				308D052E1370CCF300D202BF /* icon-72.png */,
+				308D052F1370CCF300D202BF /* icon.png */,
+				308D05301370CCF300D202BF /* icon@2x.png */,
+			);
+			path = icons;
+			sourceTree = "<group>";
+		};
+		308D05311370CCF300D202BF /* splash */ = {
+			isa = PBXGroup;
+			children = (
+				30B4F2FD19D5E07200D9F7D8 /* Default-667h.png */,
+				30B4F2FE19D5E07200D9F7D8 /* Default-736h.png */,
+				30B4F2FF19D5E07200D9F7D8 /* Default-Landscape-736h.png */,
+				D4A0D8751607E02300AEF8BB /* Default-568h@2x~iphone.png */,
+				3088BBB7154F3926009F9C59 /* Default-Landscape@2x~ipad.png */,
+				3088BBB8154F3926009F9C59 /* Default-Landscape~ipad.png */,
+				3088BBB9154F3926009F9C59 /* Default-Portrait@2x~ipad.png */,
+				3088BBBA154F3926009F9C59 /* Default-Portrait~ipad.png */,
+				3088BBBB154F3926009F9C59 /* Default@2x~iphone.png */,
+				3088BBBC154F3926009F9C59 /* Default~iphone.png */,
+			);
+			path = splash;
+			sourceTree = "<group>";
+		};
+		EB87FDF11871DA420020F90C /* Staging */ = {
+			isa = PBXGroup;
+			children = (
+				F840E1F0165FE0F500CFE078 /* config.xml */,
+				301BF56E109A69640062928A /* www */,
+			);
+			name = Staging;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* iOSRTCApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "iOSRTCApp" */;
+			buildPhases = (
+				304B58A110DAC018002A0835 /* Copy www directory */,
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				301BF551109A68C00062928A /* PBXTargetDependency */,
+			);
+			name = "iOSRTCApp";
+			productName = "iOSRTCApp";
+			productReference = 1D6058910D05DD3D006BFB54 /* iOSRTCApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 510;
+			};
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "__CLI__" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+				en,
+				es,
+				de,
+				se,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 301BF52E109A57CC0062928A /* Products */;
+					ProjectRef = 301BF52D109A57CC0062928A /* CordovaLib.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* iOSRTCApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		301BF535109A57CC0062928A /* libCordova.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libCordova.a;
+			remoteRef = 301BF534109A57CC0062928A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E7966E41810823500FA85AD /* icon-76.png in Resources */,
+				7E7966DF1810823500FA85AD /* icon-40@2x.png in Resources */,
+				308D05371370CCF300D202BF /* icon-72.png in Resources */,
+				30B4F30119D5E07200D9F7D8 /* Default-736h.png in Resources */,
+				308D05381370CCF300D202BF /* icon.png in Resources */,
+				308D05391370CCF300D202BF /* icon@2x.png in Resources */,
+				302D95F214D2391D003F00A1 /* MainViewController.xib in Resources */,
+				7E7966E01810823500FA85AD /* icon-50.png in Resources */,
+				7E7966E31810823500FA85AD /* icon-60@2x.png in Resources */,
+				7E7966E61810823500FA85AD /* icon-small.png in Resources */,
+				3088BBBD154F3926009F9C59 /* Default-Landscape@2x~ipad.png in Resources */,
+				3088BBBE154F3926009F9C59 /* Default-Landscape~ipad.png in Resources */,
+				3088BBBF154F3926009F9C59 /* Default-Portrait@2x~ipad.png in Resources */,
+				7E7966E71810823500FA85AD /* icon-small@2x.png in Resources */,
+				3088BBC0154F3926009F9C59 /* Default-Portrait~ipad.png in Resources */,
+				30B4F30019D5E07200D9F7D8 /* Default-667h.png in Resources */,
+				7E7966DE1810823500FA85AD /* icon-40.png in Resources */,
+				3088BBC1154F3926009F9C59 /* Default@2x~iphone.png in Resources */,
+				7E7966E21810823500FA85AD /* icon-60.png in Resources */,
+				3088BBC2154F3926009F9C59 /* Default~iphone.png in Resources */,
+				D4A0D8761607E02300AEF8BB /* Default-568h@2x~iphone.png in Resources */,
+				30B4F30219D5E07200D9F7D8 /* Default-Landscape-736h.png in Resources */,
+				30C1856619D5FC0A00212699 /* icon-60@3x.png in Resources */,
+				7E7966E11810823500FA85AD /* icon-50@2x.png in Resources */,
+				7E7966E51810823500FA85AD /* icon-76@2x.png in Resources */,
+				30FC414916E50CA1004E6F35 /* icon-72@2x.png in Resources */,
+				6A100BE9A19E4030AC71E79D /* AlphaTexture.fsh in Resources */,
+				9CBD09A95EEE42AD92F6035C /* Flat.fsh in Resources */,
+				5C5FAAD59B544850950BF979 /* Pattern.fsh in Resources */,
+				8CC1D2EDFDC24CDF9FEC9462 /* RadialGradient.fsh in Resources */,
+				E701B7A0F8B44D6096212E46 /* Texture.fsh in Resources */,
+				929CEB7E1D324EA4BB1CD26F /* Vertex.vsh in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		304B58A110DAC018002A0835 /* Copy www directory */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy www directory";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "NODEJS_PATH=/usr/local/bin; NVM_NODE_PATH=~/.nvm/versions/node/`nvm version 2>/dev/null`/bin; N_NODE_PATH=`find /usr/local/n/versions/node/* -maxdepth 0 -type d 2>/dev/null | tail -1`/bin; XCODE_NODE_PATH=`xcode-select --print-path`/usr/share/xcs/Node/bin; PATH=$NODEJS_PATH:$NVM_NODE_PATH:$N_NODE_PATH:$XCODE_NODE_PATH:$PATH && node cordova/lib/copy-www-build-step.js";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* AppDelegate.m in Sources */,
+				302D95F114D2391D003F00A1 /* MainViewController.m in Sources */,
+				5A5BC7A6E5ED4DA9AA770DAF /* CameraServer.m in Sources */,
+				14FA35772AAC41A1B742A395 /* HTTPServer.m in Sources */,
+				F941B63BD7D5411289D11F63 /* WebSocket.m in Sources */,
+				208977FCC648439EB7D15F97 /* HTTPMessage.m in Sources */,
+				3076BB319D9C4029AA75DC3A /* HTTPAuthenticationRequest.m in Sources */,
+				B28CA742D4E54811949A539F /* HTTPConnection.m in Sources */,
+				0433F29145D44D749D656308 /* HTTPAsyncFileResponse.m in Sources */,
+				B6896D34B47649F6A2FFDE18 /* HTTPErrorResponse.m in Sources */,
+				31573C26AA354748A10BBC6E /* HTTPDynamicFileResponse.m in Sources */,
+				D5BDA7CD519145398EBEF0FB /* HTTPRedirectResponse.m in Sources */,
+				54C46B0D6F8D499BBFAF677B /* HTTPFileResponse.m in Sources */,
+				0CCC6001ECA7436494DB2CA7 /* HTTPDataResponse.m in Sources */,
+				577AEC1EC7AA4D70BE1286D2 /* MultipartFormDataParser.m in Sources */,
+				790A7F16CB9F4762BFAF8E45 /* MultipartMessageHeader.m in Sources */,
+				35C18A53DED54F85930BC421 /* MultipartMessageHeaderField.m in Sources */,
+				A646DCFC1EB846349B240D1C /* DDData.m in Sources */,
+				E9A1356F0913402EA45D1B85 /* DDNumber.m in Sources */,
+				B2CA1F106ABF4A4FA3DA62D1 /* DDRange.m in Sources */,
+				E17BAC4147544592BC02EB1D /* GCDAsyncSocket.m in Sources */,
+				745AD6E2C3C546EEA2552964 /* DDAbstractDatabaseLogger.h in Resources */,
+				7A6C1D46C85C4ADAB79EC1C1 /* DDAbstractDatabaseLogger.m in Sources */,
+				89F157CCD2894458B6DA47A3 /* DDFileLogger.m in Sources */,
+				FA472AD242AA46DABFE189B2 /* DDASLLogger.m in Sources */,
+				B2B093F3866548A7B0A34A21 /* DDTTYLogger.m in Sources */,
+				7D6F5902F4564DA184A45209 /* DDLog.m in Sources */,
+				4BD87F0731DF4277AE72F708 /* ContextFilterLogFormatter.m in Sources */,
+				35FBA713221F4A6F80C3FDAA /* DispatchQueueLogFormatter.m in Sources */,
+				A3CDA4D06F2B4AB594496AB6 /* CameraManager.m in Sources */,
+				5F75433BDBC441DFB1F5027C /* HTTPVideoResponse.m in Sources */,
+				595ED3A14F554418A0203E3D /* HTTPJsonResponse.m in Sources */,
+				7C36C486FAC949E8903CE145 /* MyMainViewController.m in Sources */,
+				299E88063E38429DB0FA3130 /* AppDelegate+WKWebViewPolyfill.h in Resources */,
+				13B0330193154A14AFDAFF33 /* AppDelegate+WKWebViewPolyfill.m in Sources */,
+				F76EB2B1A7EA4421A22C2A6B /* ReroutingUIWebView.m in Sources */,
+				FB3734A4BE0D40A5B9906E7F /* CDVWebViewOperationsDelegate.m in Sources */,
+				4907F24B4149439E99A4A02B /* CDVWebViewUIDelegate.m in Sources */,
+				D6400687EDC947DB8CE55768 /* AppPreferences.m in Sources */,
+				6209FF979B7C43AAAE59DDA7 /* CDVLogger.m in Sources */,
+				0B698CA60575481595567977 /* CDVDevice.m in Sources */,
+				1FC756BA4C90483292DF2D25 /* CDVConnection.m in Sources */,
+				9935A7358A3E4A1A8B19750E /* CDVReachability.m in Sources */,
+				326901CD41804371B9FB9C07 /* WebRTCPlugin.m in Sources */,
+				1E50E20AF94049DDB71C2778 /* WizCanvasPlugin.m in Sources */,
+				9305E4DF8F6A4ADEB29CACE9 /* WizCanvasView.m in Sources */,
+				AF6A17FC585849F8B1601F44 /* NSString+URLEncoding.m in Sources */,
+				1DA195C9DA8B4DE9A535B1EB /* EJAudioSourceAVAudio.m in Sources */,
+				DBD2CD56514C4E9E8702B168 /* EJAudioSourceOpenAL.m in Sources */,
+				42785A6A92334E52AFFE036C /* EJBindingAudio.m in Sources */,
+				DEE060A7C695476B961E4CFC /* EJOpenALBuffer.m in Sources */,
+				8F3FE2F2385D489EA453353D /* EJSharedOpenALManager.m in Sources */,
+				8497CDDF752B4B7D94E5A9DC /* EJBindingBase.m in Sources */,
+				4C5430961F1B4EF59BC52A74 /* EJBindingEjectaCore.m in Sources */,
+				DCB32FBB25B94DCBB4EB5698 /* EJBindingEventedBase.m in Sources */,
+				848FE16D09E94FB3A55E745C /* EJBindingVideo.m in Sources */,
+				7F83137D7C6E4170AE559BB7 /* EJBindingCanvasContext2D.m in Sources */,
+				2B4F0C1CD2B9473B92A60049 /* EJBindingCanvasGradient.m in Sources */,
+				8829165FAA5F43E1BC02B195 /* EJBindingCanvasPattern.m in Sources */,
+				B0B9EF07833E43E799769973 /* EJBindingImageData.m in Sources */,
+				86850A1EAC7143FE9B6C6356 /* EJBindingTextMetrics.m in Sources */,
+				77E7E4DB640E428195297004 /* EJCanvasContext2D.m in Sources */,
+				BAE37D5F366F4D79AB9C3CF6 /* EJCanvasContext2DScreen.m in Sources */,
+				E9C37B38E25C40ADBD6AE2B9 /* EJCanvasContext2DTexture.m in Sources */,
+				7B9B951C6A23454CA9CB248C /* EJCanvasGradient.m in Sources */,
+				5A5F6409A27D4418ADECE3D1 /* EJCanvasPattern.m in Sources */,
+				D1019DC37BA3456DAAE15ECF /* EJConvertColorRGBA.m in Sources */,
+				D4A811E9F43E44A2BE482EB7 /* EJFont.mm in Resources */,
+				744B6025235748E3B9BBBF08 /* EJFontCache.m in Sources */,
+				BE404195E5A449BCAE61BC57 /* EJGLProgram2D.m in Sources */,
+				5B24A1C7D71F4E658A86EDEA /* EJGLProgram2DRadialGradient.m in Sources */,
+				51161407991B4EDBA918FACA /* EJImageData.m in Sources */,
+				C68CE2B795C441F49B9BBD42 /* EJPath.mm in Resources */,
+				EBFFABF9252844BF86397C9F /* EAGLView.m in Sources */,
+				DF09B06C12564283BA248D97 /* EJBindingCanvas.m in Sources */,
+				69ADBF574EC243F8855E9FDD /* EJBindingCanvasStyle.m in Sources */,
+				A3B07B6723D24CE69CD502CE /* EJBindingImage.m in Sources */,
+				B9307ADB1A244A4CBDE4A752 /* EJCanvasContext.m in Sources */,
+				810A3922F6D04ACB9F8CFBAE /* EJSharedTextureCache.m in Sources */,
+				7866C57D9F4C4529AF7D3EBA /* EJTexture.m in Sources */,
+				5597984D77934B5B94325E5C /* EJTextureStorage.m in Sources */,
+				0E2DE8DB1AD141FC8EFB93FC /* EJBindingCanvasContextWebGL.m in Sources */,
+				507100DDD4944815AD0EBCB2 /* EJCanvasContextWebGLScreen.m in Sources */,
+				027C2E237ECD4F5792541771 /* EJBindingWebGLExtensions.m in Sources */,
+				35DE03E189C947DCAB9CE2EC /* EJBindingWebGLObjects.m in Sources */,
+				2A2F3B4FE55C44A3A0F6BF8E /* EJCanvasContextWebGL.m in Sources */,
+				CF73CBC37B664F3587B3A2F0 /* EJConvertWebGL.m in Sources */,
+				632BDC8CB13945BDB4FFB6F7 /* EJCanvasContextWebGLTexture.m in Sources */,
+				870B62327445495FBB6A6A7F /* EJClassLoader.m in Sources */,
+				8A9C9F09A28F4B34B982134E /* EJConvert.m in Sources */,
+				64926EB5096C4A48927BB8C6 /* EJNonRetainingProxy.m in Sources */,
+				4DCB86600ACE4E92A39460BF /* EJSharedOpenGLContext.m in Sources */,
+				B3FF5008558C431DBCCF999E /* EJTimer.m in Sources */,
+				23A544F3EEC6413A96D99DDA /* EJBindingAdBanner.m in Sources */,
+				73B10AA944EF42A1B71F8D72 /* EJBindingDeviceMotion.m in Sources */,
+				76C927B192D24BDFBA462CAD /* EJBindingGeolocation.m in Sources */,
+				213D43DF034D4E1A95B45792 /* EJBindingGameCenter.m in Sources */,
+				A3A1C3A6B9FA40C98EF32A17 /* EJBindingHttpRequest.m in Sources */,
+				49F282E568394A4AAE245B1F /* EJBindingImagePicker.m in Sources */,
+				30A311A5D6FC43B187C99160 /* EJBindingKeyInput.m in Sources */,
+				8E9FC05E912141D3B97F9451 /* EJBindingLocalStorage.m in Sources */,
+				08CF62CB9F20410C9A2859AE /* EJBindingTouchInput.m in Sources */,
+				99516611089D4067959F8862 /* EJBindingWebSocket.m in Sources */,
+				3778B1C11A7541DB8C5E9ACC /* EJBindingWindowEvents.m in Sources */,
+				E30B48D5F1D641CD81FCA11F /* EJBindingWizCanvasMessenger.m in Sources */,
+				CA616054485F4FD7A0AC3ADF /* EJBindingIAPManager.m in Sources */,
+				590B1097B9F04D3CA0F9E256 /* EJBindingIAPProduct.m in Sources */,
+				CBB214E2EB6C46B0AAA02D89 /* EJBindingIAPTransaction.m in Sources */,
+				926DD2BE44BC428699C60137 /* SocketRocket-Prefix.pch in Resources */,
+				F50441EDF4FF4CF5A8FEF15C /* SRWebSocket.m in Sources */,
+				76E98529EA7945178484C4B7 /* base64.c in Resources */,
+				960E5BE081B94DC3BE10F7AF /* CDVLocation.m in Sources */,
+				EB13E989F74E483A881C80DD /* CDVBackgroundFetch.m in Sources */,
+				317BC3BCEE46491B91798226 /* CameraPreview.m in Sources */,
+				415D13C71B5C408BA40B6AB1 /* CameraSessionManager.m in Sources */,
+				C2CFA80B2BA14E8994043AFE /* CameraRenderController.m in Sources */,
+				F01F32A5601747D684F6CF78 /* CDVSplashScreen.m in Sources */,
+				F82F69FA6609499FA991F3E5 /* CDVViewController+SplashScreen.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		301BF551109A68C00062928A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CordovaLib;
+			targetProxy = 301BF550109A68C00062928A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iOSRTCApp/iOSRTCApp-Prefix.pch";
+				GCC_THUMB_SUPPORT = NO;
+				GCC_VERSION = "";
+				INFOPLIST_FILE = "iOSRTCApp/iOSRTCApp-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_LDFLAGS = (
+					"-weak_framework",
+					CoreFoundation,
+					"-weak_framework",
+					UIKit,
+					"-weak_framework",
+					AVFoundation,
+					"-weak_framework",
+					CoreMedia,
+					"-weak-lSystem",
+					"-ObjC",
+				);
+				PRODUCT_NAME = "iOSRTCApp";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"iOSRTCApp/Plugins/cordova-plugin-webserver\"",
+					"\"iOSRTCApp/Plugins/jp.wizcorp.phonegap.plugin.wizCanvasPlugin\"",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/iOSRTCApp/Plugins/cordova-plugin-webrtc\"",
+				);
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iOSRTCApp/iOSRTCApp-Prefix.pch";
+				GCC_THUMB_SUPPORT = NO;
+				GCC_VERSION = "";
+				INFOPLIST_FILE = "iOSRTCApp/iOSRTCApp-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_LDFLAGS = (
+					"-weak_framework",
+					CoreFoundation,
+					"-weak_framework",
+					UIKit,
+					"-weak_framework",
+					AVFoundation,
+					"-weak_framework",
+					CoreMedia,
+					"-weak-lSystem",
+					"-ObjC",
+				);
+				PRODUCT_NAME = "iOSRTCApp";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"iOSRTCApp/Plugins/cordova-plugin-webserver\"",
+					"\"iOSRTCApp/Plugins/jp.wizcorp.phonegap.plugin.wizCanvasPlugin\"",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/iOSRTCApp/Plugins/cordova-plugin-webrtc\"",
+				);
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_THUMB_SUPPORT = NO;
+				GCC_VERSION = "";
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"\"$(TARGET_BUILD_DIR)/usr/local/lib/include\"",
+					"\"$(OBJROOT)/UninstalledProducts/include\"",
+					"\"$(BUILT_PRODUCTS_DIR)\"",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = (
+					"-weak_framework",
+					CoreFoundation,
+					"-weak_framework",
+					UIKit,
+					"-weak_framework",
+					AVFoundation,
+					"-weak_framework",
+					CoreMedia,
+					"-weak-lSystem",
+					"-ObjC",
+				);
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = NO;
+				USER_HEADER_SEARCH_PATHS = "";
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_THUMB_SUPPORT = NO;
+				GCC_VERSION = "";
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"\"$(TARGET_BUILD_DIR)/usr/local/lib/include\"",
+					"\"$(OBJROOT)/UninstalledProducts/include\"",
+					"\"$(BUILT_PRODUCTS_DIR)\"",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_LDFLAGS = (
+					"-weak_framework",
+					CoreFoundation,
+					"-weak_framework",
+					UIKit,
+					"-weak_framework",
+					AVFoundation,
+					"-weak_framework",
+					CoreMedia,
+					"-weak-lSystem",
+					"-ObjC",
+				);
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = NO;
+				USER_HEADER_SEARCH_PATHS = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "iOSRTCApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "__CLI__" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

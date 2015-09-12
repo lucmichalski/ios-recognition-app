@@ -1,0 +1,59 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "files": {
+            "config.xml": {
+                "parents": {
+                    "/*": [
+                        {
+                            "xml": "<feature name=\"Device\"><param name=\"browser-package\" value=\"Device\" /></feature>",
+                            "count": 1
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "installed_plugins": {
+        "cordova-plugin-app-preferences": {
+            "PACKAGE_NAME": "com.eface2face.iosrtcapp"
+        },
+        "cordova-plugin-console": {
+            "PACKAGE_NAME": "com.eface2face.iosrtcapp"
+        },
+        "cordova-plugin-device": {
+            "PACKAGE_NAME": "com.eface2face.iosrtcapp"
+        },
+        "cordova-plugin-whitelist": {
+            "PACKAGE_NAME": "com.eface2face.iosrtcapp"
+        },
+        "com.moonware.cameraserver": {
+            "PACKAGE_NAME": "com.eface2face.iosrtcapp"
+        },
+        "cordova-plugin-webrtc": {
+            "PACKAGE_NAME": "com.eface2face.iosrtcapp"
+        },
+        "jp.wizcorp.phonegap.plugin.wizAssetsPlugin": {
+            "PACKAGE_NAME": "com.eface2face.iosrtcapp"
+        },
+        "jp.wizcorp.phonegap.plugin.wizViewManagerPlugin": {
+            "PACKAGE_NAME": "com.eface2face.iosrtcapp"
+        },
+        "org.apache.cordova.geolocation": {
+            "PACKAGE_NAME": "com.eface2face.iosrtcapp"
+        },
+        "com.telerik.plugins.wkwebview": {
+            "PACKAGE_NAME": "com.eface2face.iosrtcapp"
+        },
+        "jp.wizcorp.phonegap.plugin.wizCanvasPlugin": {
+            "PACKAGE_NAME": "com.eface2face.iosrtcapp"
+        },
+        "cordova-plugin-network-information": {
+            "PACKAGE_NAME": "com.eface2face.iosrtcapp"
+        }
+    },
+    "dependent_plugins": {}
+}

@@ -1,0 +1,215 @@
+{
+    "cordova-plugin-console": {
+        "source": {
+            "type": "registry",
+            "id": "cordova-plugin-console"
+        },
+        "is_top_level": true,
+        "variables": {}
+    },
+    "org.apache.cordova.console": {
+        "source": {
+            "type": "registry",
+            "id": "org.apache.cordova.console"
+        },
+        "is_top_level": true,
+        "variables": {}
+    },
+    "org.apache.cordova.device": {
+        "source": {
+            "type": "registry",
+            "id": "org.apache.cordova.device"
+        },
+        "is_top_level": true,
+        "variables": {}
+    },
+    "com.moonware.cameraserver": {
+        "source": {
+            "type": "git",
+            "url": "https://github.com/Moonware/cordova-cameraserver",
+            "subdir": "."
+        },
+        "is_top_level": true,
+        "variables": {}
+    },
+    "cordova-plugin-network-information": {
+        "source": {
+            "type": "registry",
+            "id": "cordova-plugin-network-information"
+        },
+        "is_top_level": true,
+        "variables": {}
+    },
+    "cordova-plugin-device": {
+        "source": {
+            "type": "git",
+            "url": "https://github.com/apache/cordova-plugin-device",
+            "subdir": ".",
+            "ref": "r1.0.1"
+        },
+        "is_top_level": true,
+        "variables": {}
+    },
+    "cordova-plugin-whitelist": {
+        "source": {
+            "type": "registry",
+            "id": "cordova-plugin-whitelist@1.1.0"
+        },
+        "is_top_level": true,
+        "variables": {}
+    },
+    "cordova-plugin-app-preferences": {
+        "source": {
+            "type": "git",
+            "url": "https://github.com/apla/me.apla.cordova.app-preferences.git",
+            "subdir": "."
+        },
+        "is_top_level": true,
+        "variables": {}
+    },
+    "org.transistorsoft.cordova.plugin.background.fetch": {
+        "source": {
+            "type": "git",
+            "url": "https://github.com/christocracy/cordova-plugin-background-fetch.git",
+            "subdir": "."
+        },
+        "is_top_level": true,
+        "variables": {}
+    },
+    "com.keith.cordova.plugin.canvascamera": {
+        "source": {
+            "type": "git",
+            "url": "https://github.com/donaldp24/CanvasCameraPlugin.git",
+            "subdir": "."
+        },
+        "is_top_level": true,
+        "variables": {}
+    },
+    "cordova-plugin-webrtc": {
+        "source": {
+            "type": "registry",
+            "id": "cordova-plugin-webrtc"
+        },
+        "is_top_level": true,
+        "variables": {}
+    },
+    "jp.wizcorp.phonegap.plugin.wizCanvasPlugin": {
+        "source": {
+            "type": "git",
+            "url": "https://github.com/Wizcorp/phonegap-plugin-wizCanvas",
+            "subdir": "."
+        },
+        "is_top_level": true,
+        "variables": {}
+    },
+    "jp.wizcorp.phonegap.plugin.wizUtilsPlugin": {
+        "source": {
+            "type": "git",
+            "url": "https://github.com/Wizcorp/phonegap-plugin-wizUtils.git",
+            "subdir": "."
+        },
+        "is_top_level": true,
+        "variables": {}
+    },
+    "com.simetrica.cordova.plugin.canvascamera": {
+        "source": {
+            "type": "git",
+            "url": "https://github.com/koiosoft/CanvasCameraPlugin.git",
+            "subdir": "."
+        },
+        "is_top_level": true,
+        "variables": {}
+    },
+    "com.ludei.canvasplus.common": {
+        "source": {
+            "type": "registry",
+            "id": "com.ludei.canvasplus.common"
+        },
+        "is_top_level": true,
+        "variables": {}
+    },
+    "com.ludei.cocoon.common": {
+        "source": {
+            "type": "registry",
+            "id": "com.ludei.cocoon.common"
+        },
+        "is_top_level": false,
+        "variables": {}
+    },
+    "com.telerik.plugins.wkwebview": {
+        "source": {
+            "type": "registry",
+            "id": "com.telerik.plugins.wkwebview"
+        },
+        "is_top_level": true,
+        "variables": {}
+    },
+    "cordova-plugin-webserver": {
+        "source": {
+            "type": "registry",
+            "id": "cordova-plugin-webserver"
+        },
+        "is_top_level": false,
+        "variables": {}
+    },
+    "com.ludei.ios.webview.plus": {
+        "source": {
+            "type": "registry",
+            "id": "com.ludei.ios.webview.plus"
+        },
+        "is_top_level": true,
+        "variables": {}
+    },
+    "com.mbppower.camerapreview": {
+        "source": {
+            "type": "git",
+            "url": "https://github.com/mbppower/CordovaCameraPreview.git",
+            "subdir": "."
+        },
+        "is_top_level": true,
+        "variables": {}
+    },
+    "jp.wizcorp.phonegap.plugin.wizAssetsPlugin": {
+        "source": {
+            "type": "git",
+            "url": "https://github.com/Wizcorp/phonegap-plugin-wizAssets.git",
+            "subdir": "."
+        },
+        "is_top_level": true,
+        "variables": {}
+    },
+    "jp.wizcorp.phonegap.plugin.wizViewManagerPlugin": {
+        "source": {
+            "type": "git",
+            "url": "https://github.com/Wizcorp/phonegap-plugin-wizViewManager.git",
+            "subdir": "."
+        },
+        "is_top_level": true,
+        "variables": {}
+    },
+    "org.apache.cordova.geolocation": {
+        "source": {
+            "type": "registry",
+            "id": "org.apache.cordova.geolocation"
+        },
+        "is_top_level": true,
+        "variables": {}
+    },
+    "jaeger.Html5Video": {
+        "source": {
+            "type": "git",
+            "url": "https://github.com/jaeger25/Html5Video.git",
+            "subdir": "."
+        },
+        "is_top_level": true,
+        "variables": {}
+    },
+    "cordova-plugin-splashscreen": {
+        "source": {
+            "type": "registry",
+            "id": "cordova-plugin-splashscreen"
+        },
+        "is_top_level": true,
+        "variables": {}
+    }
+}

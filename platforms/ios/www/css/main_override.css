@@ -1,0 +1,19 @@
+
+#tracker-vmx-stooge {
+	z-index: 7!important;
+	position:absolute;
+}
+
+#video-vmx-stooge {
+	visibility: hidden!important;
+}
+
+#vmxfooter {
+	visibility: none!important;
+}
+
+#tracker-vmx-stooge,
+#dummyCamera {
+	width: 100%;
+	height: 100%;
+}

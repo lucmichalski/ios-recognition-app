@@ -1,0 +1,51 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "files": {
+            "config.xml": {
+                "parents": {
+                    "/*": [
+                        {
+                            "xml": "<feature name=\"Device\"><param name=\"firefoxos-package\" value=\"Device\" /></feature>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<feature name=\"Camera\"><param name=\"firefoxos-package\" value=\"Camera\" /></feature>",
+                            "count": 1
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "installed_plugins": {
+        "com.moonware.cameraserver": {
+            "PACKAGE_NAME": "com.eface2face.iosrtcapp"
+        },
+        "cordova-plugin-console": {
+            "PACKAGE_NAME": "com.eface2face.iosrtcapp"
+        },
+        "cordova-plugin-crosswalk-webview": {
+            "PACKAGE_NAME": "com.eface2face.iosrtcapp"
+        },
+        "cordova-plugin-device": {
+            "PACKAGE_NAME": "com.eface2face.iosrtcapp"
+        },
+        "cordova-plugin-iosrtc": {
+            "PACKAGE_NAME": "com.eface2face.iosrtcapp"
+        },
+        "cordova-plugin-network-information": {
+            "PACKAGE_NAME": "com.eface2face.iosrtcapp"
+        },
+        "cordova-plugin-camera": {
+            "PACKAGE_NAME": "com.eface2face.iosrtcapp"
+        },
+        "cordova-plugin-whitelist": {
+            "PACKAGE_NAME": "com.eface2face.iosrtcapp"
+        }
+    },
+    "dependent_plugins": {}
+}

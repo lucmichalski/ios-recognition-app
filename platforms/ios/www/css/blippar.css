@@ -1,0 +1,337 @@
+*, body, button, input, textarea, select {
+    /*text-rendering: optimizeLegibility;*/
+    font-size:100%;
+}
+
+.img-thumbnail, body {
+    background-color: transparent!important;
+}
+
+.startLogoIcon,
+.startLTUIcon { 
+    float: left;
+    border: 5px transparent solid;
+    width: 100px!important;
+    height: 100px!important;
+    margin: 2px;
+}
+
+.startLogoIcon,
+.startLTU {
+  display: block;
+}
+
+a.startLogo,
+a.startLTU {
+    padding:0px;
+    padding:0px;
+}
+
+.startLogo img,
+.startLTU img {
+    width: 100%;
+    height: 100%;
+}
+
+.cbp-vimenu {
+    display:none;
+}
+
+.cbp-vimenu {
+    top:90px!important;
+}
+
+.thumbnail {
+    max-height: 128px!important;
+    max-width: 128px!important;
+}
+
+.modal-dialog {
+    left: auto!important;
+    right: auto!important;
+}
+
+.availableImage {
+/*    border: 2px solid orange!important;*/
+    margin: 2px;
+}
+
+.cbp-vimenu li a.icon-logo {
+    background: #fff!important;
+}
+
+.cbp-vimenu {
+    font-size: 100%!important;
+}
+
+.carrot_one {
+    top:111px!important;
+}
+
+.carrot_two {
+    top:111px!important;    
+}
+
+.availableImage {
+    max-width:100px!important;
+    height:100px!important;
+}
+
+.cbp-vimenu2 {
+    top:90px!important;
+    left: 85px!important;
+}
+
+.vmx-wide-modal .modal-dialog {
+    z-index:9999!important;
+    left: auto;
+    right: auto;
+}
+
+.vmxFramework {
+    position: fixed;
+    bottom: 55px;
+    left: 25;
+    z-index: 9999;
+}
+
+.vmxFrameworkModels {
+    padding: 0px 0px!important; 
+    clear: none!important;
+}
+
+.vmxFramework img { 
+  margin: 5px;
+  float: left;
+  width: 75px;
+  height: 75px;
+}
+
+.container2 {
+    width: 87%;
+    margin: auto;
+    display: none;
+    margin-top: 55px;
+    z-index: 9999;
+    position: relative;
+}
+
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td { 
+  background-color: transparent;
+  margin:0;
+  padding:0;
+}
+table {
+  border-collapse:collapse;
+  border-spacing:0;
+}
+fieldset,img { 
+  border:0;
+}
+address,caption,cite,code,dfn,em,strong,th,var {
+  font-style:normal;
+  font-weight:normal;
+}
+ol,ul {
+  list-style:none;
+}
+caption,th {
+  text-align:left;
+}
+
+body > canvas {
+  position:absolute;
+  z-index: 4;
+  display:block;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-size:100%;
+  font-weight:normal;
+}
+q:before,q:after {
+  content:'';
+}
+abbr,acronym { border:0;}
+
+#mainNavbar {
+  position:absolute;
+  z-index: 99999;
+  width:100%;
+    top: 0px;  
+}
+
+#languageDialog .modal-dialog {
+    display: block;
+    position: absolute;
+    margin: auto;
+    margin-top: 55px;  
+}
+
+#actual_content {
+  font-size: 2.0em;
+}
+
+.nav.navbar-nav {
+  font-size: 1.6em;    
+}
+
+.nav.nav-tabs {
+  font-size: 1.9em;  
+}
+
+.dropdown-menu a {
+    font-size: 1.9em;  
+}
+
+#kb {
+  font-size: 1.6em;  
+}
+
+#closekb {
+  font-size: 1.9em;  
+}
+
+.list-group.row {
+  font-size: 1.9em;  
+}
+
+#timeline_panel_container {
+  width: 100%;
+}
+
+.sceneCanvas {
+    //transform: scaleX(-1);
+}
+
+#main-vmx-stooge canvas {
+    //  transform: scaleX(1);
+    //transform: scaleX(-1);
+    //filter: FlipX;
+}
+
+.resizedCamera {
+    transform: scaleX(-1);
+}
+
+#tracker-vmx-stooge {
+    //filter: FlipX;
+}
+
+#ltutech76 {
+    list-style: none;
+    height:230px;
+    width:320px;
+    overflow: hidden;
+    margin:0px;
+    padding:0px;
+}
+
+.searchBar {
+    position: absolute;
+    z-index: 255;
+    right: 15px;
+    z-index:215;
+}
+
+.targetGrid {
+    position: fixed;
+    z-index: 4;
+}
+
+.smalltargetGrid {
+    position: fixed;
+    z-index: 4;
+}
+
+#ltutech {
+    bottom: 245px;
+    right: 3px;
+    padding: 3px;
+    margin: 5px;
+    border: 3px solid orange;
+    position: fixed;
+    z-index: 102;
+    height: 115px;
+    width: 320px;
+    background-color: white;
+}
+
+.ltutech {
+    margin:3px;
+    margin-right:15px;
+    border: 1px solid orange;
+    float:left;
+    display:inline;
+    list-style-type: none;
+    background-repeat:no-repeat;
+    background-size:cover;
+    height: 75px;
+    width: 25%;
+}
+
+.ltuheader {
+    list-style-type: none;
+    text-align:center;
+    width: 100%;
+    background-color:#ccc;
+    color:white;
+    font-size:11px;
+}
+
+.ltulabel {
+    list-style-type: none;
+    text-align:center;
+    width: 100%;
+    font-weight:bold;
+    background-color:orange;
+    color:white;
+    top:2px;
+    margin:3px;
+    padding:3px;
+    font-size:14px;
+}
+
+.ltuscore {
+    list-style-type: none;
+    text-align:center;
+    width: 100%;
+    bottom:2px;
+    font-weight:bold;
+    background-color:#ccc;
+    color:white;
+    margin:3px;
+    padding:3px;
+    font-size:14px;
+}
+
+#flippedCamera {
+    list-style-type: none;
+    position: absolute;
+    right: 3px;
+    bottom: 350px;
+    background-color: white;
+    z-index:101;
+    margin:5px;
+    width: 320px;
+    height: 240px;
+}
+
+#resizedCamera {
+    list-style-type: none;
+    position: fixed;
+    right: 3px;
+    bottom: 3px;
+    background-color: white;
+    z-index:101;
+    margin:5px;
+    width: 320px;
+    height: 240px;
+}
+
+.dummyCanvas {
+    display:block;
+    position:absolute;
+    width:320px;
+    height:240px;
+}

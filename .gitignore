@@ -1,6 +1,4 @@
 # Cordova stuff
-/platforms/
-/plugins/
 
 # Logs and databases
 *.log
@@ -17,4 +15,3 @@ ehthumbs.db
 Thumbs.db
 
 # Others
-/node_modules/
