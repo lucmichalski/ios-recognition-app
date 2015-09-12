@@ -65,11 +65,33 @@ The following subdirectories will be used for hooks:
 
 All scripts are run from the project's root directory and have the root directory passes as the first argument. All other options are passed to the script using environment variables:
 
+<<<<<<< HEAD
 * CORDOVA_VERSION - The version of the Cordova-CLI.
 * CORDOVA_PLATFORMS - Comma separated list of platforms that the command applies to (e.g.: android, ios).
 * CORDOVA_PLUGINS - Comma separated list of plugin IDs that the command applies to (e.g.: org.apache.cordova.file, org.apache.cordova.file-transfer)
 * CORDOVA_HOOK - Path to the hook that is being executed.
 * CORDOVA_CMDLINE - The exact command-line arguments passed to cordova (e.g.: cordova run ios --emulate)
+=======
+- Get the source code:
+```bash
+$ git clone https://github.com/eface2face/iOSRTCApp
+$ cd iOSRTCApp
+```
+- Install NPM dependencies:
+```bash
+$ npm install
+```
+- Add both platforms. All the needed plugins are installed automatically because of being included in the "config.xml" file:
+```bash
+$ cordova platform add ios android
+```
+- Run as usual:
+```bash
+$ cordova run android --device
+$ cordova run ios --device
+```
+- Once running, enter the same room as one already created via web browser at https://apprtc.appspot.com/, and enjoy!
+>>>>>>> 0b6a1cfaf3a9df19577757d0dc236e379e6ac395
 
 If a script returns a non-zero exit code, then the parent cordova command will be aborted.
 
