@@ -1,11 +1,11 @@
 {
-  "name": "AppRTC",
-  "description": "AppRTC video chat application",
+  "name": "Blippar",
+  "description": "Blippar Socially Augmented Reality application",
   "version": "0.1",
   "manifest_version": 2,
   "app": {
     "background": {
-      "scripts": ["js/apprtc.debug.js", "js/background.js"]
+      "scripts": ["js/webrtc/apprtc.debug.js", "js/webrtc/background.js"]
     }
   },
   "icons": {
